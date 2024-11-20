@@ -1,0 +1,88 @@
+{
+  "cards": [
+    {
+      "title": "Vehicle Tracking System",
+      "image": "vts_portfolio.png",
+      "category": ["vts"],
+      "description": "A state-of-the-art system for tracking vehicles in real-time, allowing for efficient monitoring of routes, assets, and driver performance, ensuring optimized logistics and security.",
+      "href": "#",
+      "slug": "vehicle-tracking"
+    },
+    {
+      "title": "Vehicle Management System",
+      "image": "vehicle_management_system.png",
+      "category": ["vts"],
+      "description": "A comprehensive system for overseeing vehicle fleets, ensuring smooth operations, maintenance scheduling, and compliance with safety regulations.",
+      "href": "#",
+      "slug": "vehicle-management"
+    },
+    {
+      "title": "OTT Platform",
+      "image": "ott_portfolio.png",
+      "category": ["ott"],
+      "description": "An advanced Over-The-Top (OTT) platform for streaming digital content with robust features such as multi-device support, personalized recommendations, and seamless video delivery.",
+      "href": "#",
+      "slug": "ott-platform"
+    },
+    {
+      "title": "Chat, Audio-Video System",
+      "image": "chat_audio_video_system.png",
+      "category": ["communication"],
+      "description": "A versatile communication tool offering real-time messaging, voice calls, and video conferencing for enhancing team collaboration and user engagement.",
+      "href": "#",
+      "slug": ""
+    },
+    {
+      "title": "Call Blast",
+      "image": "call_blast_system.png",
+      "category": ["communication"],
+      "description": "A targeted mass calling solution designed to help businesses and organizations run large-scale outreach, marketing campaigns, or emergency notifications efficiently.",
+      "href": "#",
+      "slug": ""
+    },
+    {
+      "title": "Learning Management System",
+      "image": "learning_management_system.png",
+      "category": ["education"],
+      "description": "A fully-featured LMS platform for delivering and managing online courses, tracking learner progress, and facilitating e-learning initiatives with ease.",
+      "href": "#",
+      "slug": ""
+    },
+    {
+      "title": "IoT Solutions",
+      "image": "iot_product_solution.png",
+      "category": ["iot"],
+      "description": "A set of cutting-edge IoT solutions designed to offer smart automation, connectivity, and data collection for various industries, enabling intelligent operations.",
+      "href": "#",
+      "slug": "iot-product-design"
+    },
+    {
+      "title": "Ad Manager",
+      "image": "ad_manager_system.png",
+      "category": ["advertising", "dashboard"],
+      "description": "A feature-rich platform for managing online advertising campaigns, with tools for targeting, performance analysis, and cross-platform ad optimization.",
+      "href": "#",
+      "slug": ""
+    },
+    {
+      "title": "Telehealth App",
+      "image": "telehealth_portfolio.png",
+      "category": ["dashboard"],
+      "description": "A comprehensive telehealth solution that enables remote patient consultations, virtual care, and health monitoring, bringing convenience and accessibility to healthcare services.",
+      "href": "#",
+      "slug": "telehealth-app"
+    },
+    {
+      "title": "Inventory System",
+      "image": "inventory_portfolio.png",
+      "category": ["dashboard"],
+      "description": "A robust inventory management platform that enables real-time tracking of stock levels, automates reordering, and helps businesses optimize their supply chain efficiency.",
+      "href": "#",
+      "slug": "inventory-system"
+    }
+  ],
+  "section": {
+    "title": "Let Us Build Your Story Together",
+    "subtitle": "Over Time, We've Forged Partnerships with Exceptional Companies and Entrepreneurs Globally"
+  }
+}

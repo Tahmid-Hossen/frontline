@@ -1,0 +1,1800 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "slug": "software-design",
+      "title": "Software Design",
+      "description": "Designs that bring your software ideas to life with sleek interfaces and user-centric experiences. Nexdecade specializes in crafting software solutions tailored to meet the unique needs of each client, ensuring an intuitive and engaging end-user interaction.",
+      "image": "software-design.png",
+      "link": "/services/software-design",
+      "subComponents": [
+        {
+          "name": "Desktop Software",
+          "icon": "ui_design.svg"
+        },
+        {
+          "name": "Mobile Software",
+          "icon": "ux_design.svg"
+        },
+        {
+          "name": "Software Product",
+          "icon": "software_product.svg"
+        },
+        {
+          "name": "Web based Design",
+          "icon": "web_based_design.svg"
+        },
+        {
+          "name": "Custom Software Solutions",
+          "icon": "custom_software.svg"
+        },
+        {
+          "name": "Enterprise Software",
+          "icon": "enterprise_software.svg"
+        }
+      ],
+      "subService": {
+        "id": 1,
+        "slug": "software-design",
+        "title": "Software Design",
+        "overview": {
+          "title": "Overview",
+          "description": "At Nexdecade Technology, our software design services are focused on delivering high-performance, user-centric solutions that address your business challenges. We take a comprehensive approach, starting from in-depth analysis and requirements gathering to creating detailed architecture and design frameworks.<br/><br/>Our expertise spans across various domains, including OTT platforms, IoT systems, Vehicle Tracking & Management Systems (VTS/VMS), and custom enterprise applications. Our designs prioritize scalability, security, and maintainability, ensuring that your software can grow and adapt to evolving needs.<br/><br/>With a strong focus on usability, performance optimization, and seamless integration, we build solutions that not only meet technical specifications but also enhance user experience and business operations. Whether you need a robust backend, a highly interactive frontend, or a fully integrated system, Nexdecade ensures software that drives innovation and operational efficiency.",
+          "image": "/images/services/sub-services/overview/overview_software-design.png"
+        },
+        "development_services": {
+          "title": "Businesses of all sizes benefit from Software",
+          "title_highlight": "Development Services",
+          "sub_title": "Benefits",
+          "description": "Hiring a software development firm provides businesses of all sizes with cost-effective and high-quality services, crucial for achieving customer satisfaction in a competitive market. Partnering with such firms offers various additional benefits, ensuring business sustainability. Therefore, engaging a custom software development company with the necessary skills and expertise is essential.",
+          "image": "/images/services/sub-services/development-services/development_service_software_design.png",
+          "services": [
+            {
+              "id": 1,
+              "title": "Nexdecade gives the developer a selection of reliable and assessed solutions to work with."
+            },
+            {
+              "id": 2,
+              "title": "We are language neutral and so can be applied to any language that supports object-orientation."
+            },
+            {
+              "id": 3,
+              "title": "We aid communication by the very fact that they are well documented and can be researched if that is not the case."
+            },
+            {
+              "id": 4,
+              "title": "We have a proven track record as they are already being widely used and thus reduce the technical risk to the project."
+            },
+            {
+              "id": 5,
+              "title": "We are highly flexible and can be used in practically any type of application or domain."
+            }
+          ]
+        },
+        "platform_type": {
+          "title": "Platform Type",
+          "title_highlight": "",
+          "description": "",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "Mobile",
+              "icon": "/images/services/sub-services/platform-type/mobile.png"
+            },
+            {
+              "id": 2,
+              "title": "Web",
+              "icon": "/images/services/sub-services/platform-type/web.png"
+            },
+            {
+              "id": 3,
+              "title": "Desktop",
+              "icon": "/images/services/sub-services/platform-type/desktop.png"
+            },
+            {
+              "id": 4,
+              "title": "TV",
+              "icon": "/images/services/sub-services/platform-type/tv.png"
+            },
+            {
+              "id": 5,
+              "title": "Apple App Store",
+              "icon": "/images/services/sub-services/platform-type/apple-store.png"
+            },
+            {
+              "id": 6,
+              "title": "Google Play Store",
+              "icon": "/images/services/sub-services/platform-type/google-play.png"
+            }
+          ]
+        },
+        "device_type": {
+          "title": "Device Type",
+          "title_highlight": "",
+          "description": "",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "Mobile",
+              "icon": "/images/services/sub-services/device-type/mobile.png"
+            },
+            {
+              "id": 2,
+              "title": "Tablet",
+              "icon": "/images/services/sub-services/device-type/tablet.png"
+            },
+            {
+              "id": 3,
+              "title": "Desktop",
+              "icon": "/images/services/sub-services/device-type/desktop.png"
+            },
+            {
+              "id": 4,
+              "title": "TV",
+              "icon": "/images/services/sub-services/device-type/tv.png"
+            }
+          ]
+        },
+        "os_type": {
+          "title": "OS Type",
+          "title_highlight": "",
+          "description": "",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "Android",
+              "icon": "/images/services/sub-services/os-type/android.png"
+            },
+            {
+              "id": 2,
+              "title": "IOS",
+              "icon": "/images/services/sub-services/os-type/ios.png"
+            },
+            {
+              "id": 3,
+              "title": "Windows",
+              "icon": "/images/services/sub-services/os-type/windows.png"
+            },
+            {
+              "id": 4,
+              "title": "Mac OS",
+              "icon": "/images/services/sub-services/os-type/mac-os.png"
+            },
+            {
+              "id": 5,
+              "title": "Linux",
+              "icon": "/images/services/sub-services/os-type/linux.png"
+            },
+            {
+              "id": 6,
+              "title": "Google Chrome",
+              "icon": "/images/services/sub-services/os-type/chrome.png"
+            },
+            {
+              "id": 7,
+              "title": "Mobile",
+              "icon": "/images/services/sub-services/os-type/mobile.png"
+            },
+            {
+              "id": 8,
+              "title": "Mac Os",
+              "icon": "/images/services/sub-services/os-type/mac-os.png"
+            }
+          ]
+        },
+        "team_overview": {
+          "title": "Team Overview",
+          "title_highlight": "Overview",
+          "description": "",
+          "image": "",
+          "sections": [
+            {
+              "id": 1,
+              "value": "16+",
+              "description": "Experience"
+            },
+            {
+              "id": 2,
+              "value": "140+",
+              "description": "Team Members"
+            },
+            {
+              "id": 3,
+              "value": "50+",
+              "description": "Handle Projects"
+            }
+          ]
+        },
+        "previous_projects": {
+          "title": "The Solution We've Engineered:",
+          "title_highlight": "Tailored for Success",
+          "description": "",
+          "image": "",
+          "projects": [
+            {
+              "title": "Grameen-phone Vehicle Tracking Software Platform (GP VTS)",
+              "image": "gp_vts_portfolio.png",
+              "category": [
+                "vts"
+              ],
+              "description": "Our advanced GP Vehicle Tracking Software provides precise real-time tracking and monitoring capabilities for vehicles and assets.",
+              "href": "/portfolio/gp-vts"
+            },
+            {
+              "title": "Nexdecade Vehicle Tracking Software Platform",
+              "image": "nexdecade_vts_portfolio.png",
+              "category": [
+                "vts"
+              ],
+              "description": "Nexdecade's tracking platform offers efficient vehicle tracking with customizable alerts and detailed analytics.",
+              "href": "/portfolio/nexdecade-vts"
+            },
+            {
+              "title": "Vehicle Management System Software",
+              "image": "vehicle_management_portfolio.png",
+              "category": [
+                "vms"
+              ],
+              "description": "A robust system to manage and track vehicles efficiently, ensuring optimal fleet performance.",
+              "href": "/portfolio/vehicle-management"
+            },
+            {
+              "title": "Banglalink Entertainment Platform (Toffee)",
+              "image": "toffee_portfolio.png",
+              "category": [
+                "ott"
+              ],
+              "description": "Banglalink's OTT platform, Toffee, provides a diverse range of entertainment options with seamless streaming and user-friendly features.",
+              "href": "/portfolio/toffee"
+            },
+            {
+              "title": "Billing Management Software",
+              "image": "billing_management_portfolio.png",
+              "category": [
+                "billing"
+              ],
+              "description": "This software ensures smooth and efficient billing operations with integrated features for invoice management and payment tracking.",
+              "href": "/portfolio/billing-management"
+            },
+            {
+              "title": "Customer Management Software",
+              "image": "customer_management_portfolio.png",
+              "category": [
+                "customer-management"
+              ],
+              "description": "Manage customer interactions and data effectively with a centralized platform that offers detailed insights and analytics.",
+              "href": "/portfolio/customer-management"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "slug": "hardware-design",
+      "title": "Hardware Design",
+      "description": "Innovative hardware solutions that integrate seamlessly with software applications. Our hardware design services include creating efficient, robust, and cost-effective designs for various industries, enhancing functionality and usability.",
+      "image": "hardware-design.png",
+      "link": "/services/hardware-design",
+      "subComponents": [
+        {
+          "name": "Desktop Software",
+          "icon": "ui_design.svg"
+        },
+        {
+          "name": "Mobile Software",
+          "icon": "ux_design.svg"
+        },
+        {
+          "name": "Software Product",
+          "icon": "software_product.svg"
+        },
+        {
+          "name": "Web based Design",
+          "icon": "web_based_design.svg"
+        },
+        {
+          "name": "Custom Software Solutions",
+          "icon": "custom_software.svg"
+        },
+        {
+          "name": "Enterprise Software",
+          "icon": "enterprise_software.svg"
+        }
+      ],
+      "subService": {
+        "id": 2,
+        "slug": "hardware-design",
+        "title": "Hardware Design",
+        "overview": {
+          "title": "Overview",
+          "description": "Nexdecade excels in designing complex PCB boards including analog, RF, high-speed digital, mixed signal, and high power variants, ensuring high success rates on initial attempts. With over two decades of experience and robust partnerships, our hardware design capabilities and lab facilities support comprehensive spec-to-product engineering services.\nWe meticulously analyze all PCB designs for timing, signal integrity, power management, and heat dissipation to guarantee optimal performance. Our services encompass board design from specifications through prototype development, board bring-up, and seamless integration into final products. We specialize in FPGA board designs for performance evaluation, offer redesigns to replace obsolete components, and provide firmware development including diagnostics, boot code, BSPs, and device drivers for diverse interfaces, aiming for enhanced functionality and efficiency.",
+          "image": "/images/services/sub-services/overview/overview_hardware-design.png"
+        },
+        "development_services": {
+          "title": "Hardware",
+          "title_highlight": "Development Services",
+          "sub_title": "We Ensure",
+          "description": "Hiring a software development firm provides businesses of all sizes with cost-effective and high-quality services, crucial for achieving customer satisfaction in a competitive market. Partnering with such firms offers various additional benefits, ensuring business sustainability. Therefore, engaging a custom software development company with the necessary skills and expertise is essential.",
+          "image": "/images/services/sub-services/development-services/development_service_hardware_design.png",
+          "services": [
+            {
+              "id": 1,
+              "title": "Board design from specifications, prototype development, board bring up and integration in products."
+            },
+            {
+              "id": 2,
+              "title": "FPGA Board Designs for performance evaluation."
+            },
+            {
+              "id": 3,
+              "title": "Board Redesigns/Respins to replace obsolete components, value engineering for cost."
+            },
+            {
+              "id": 4,
+              "title": "Reduction or performance improvements."
+            },
+            {
+              "id": 5,
+              "title": "Firmware development including Post/Diagnostics, Boot Code, Board Support Packages (BSPs)."
+            },
+            {
+              "id": 6,
+              "title": "Device drivers for a wide variety of on-board and external interfaces."
+            }
+          ]
+        },
+        "team_overview": {
+          "title": "Team Overview",
+          "title_highlight": "Overview",
+          "description": "",
+          "image": "",
+          "sections": [
+            {
+              "id": 1,
+              "value": "10+",
+              "description": "Experience"
+            },
+            {
+              "id": 2,
+              "value": "7+",
+              "description": "Team Members"
+            },
+            {
+              "id": 3,
+              "value": "50+",
+              "description": "Handle Projects"
+            }
+          ]
+        },
+        "system_design": {
+          "title": "Electronics ",
+          "title_highlight": "System Design",
+          "description": "As part of our total product design portfolio, Nexdecade provides professional baseband, embedded and user interface, electronics design, and testing services for companies that are designing products requiring excellent hardware performance. Nexdecade’s combination of baseband expertise and hardware laboratory facilities offers professional services for design and testing purposes.",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "Hardware Conceptualization and Definition",
+              "icon": "/images/services/sub-services/system-design/conceptualization.png"
+            },
+            {
+              "id": 2,
+              "title": "Hardware User Interface Design",
+              "icon": "/images/services/sub-services/system-design/interface.png"
+            },
+            {
+              "id": 3,
+              "title": "Embedded Electronics Design",
+              "icon": "/images/services/sub-services/system-design/electronics.png"
+            },
+            {
+              "id": 4,
+              "title": "Hardware performance testing and verification",
+              "icon": "/images/services/sub-services/system-design/performance.png"
+            }
+          ]
+        },
+        "layout_design": {
+          "title": "PCB",
+          "title_highlight": "Layout Design",
+          "description": "Nexdecade provides professional printed circuit board and layout design for electronics, wireless & GSM products. All design work is done in cooperation with hardware and mechanics engineers to ensure high performance and quality of designed board.",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "PCB Layout Design",
+              "icon": "/images/services/sub-services/layout-design/pcb_layout.png"
+            },
+            {
+              "id": 2,
+              "title": "Component Placement and Design",
+              "icon": "/images/services/sub-services/layout-design/placement.png"
+            },
+            {
+              "id": 3,
+              "title": "GSM based engine board design: cellular and satellite communication",
+              "icon": "/images/services/sub-services/layout-design/GSM_based_engine.png"
+            },
+            {
+              "id": 4,
+              "title": "Macro Boards",
+              "icon": "/images/services/sub-services/layout-design/macro_boards.png"
+            },
+            {
+              "id": 5,
+              "title": "RF Block Design",
+              "icon": "/images/services/sub-services/layout-design/RF_block_design.png"
+            }
+          ]
+        },
+        "hardware_testing": {
+          "title": "Hardware",
+          "title_highlight": "Testing",
+          "description": "Nexdecade provides professional printed circuit board and layout design for electronics, wireless & GSM products. All design work is done in cooperation with hardware and mechanics engineers to ensure high performance and quality of designed board.",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "RF Performance",
+              "icon": "/images/services/sub-services/hardware-testing/RF_performance.png"
+            },
+            {
+              "id": 2,
+              "title": "Antenna Design Verification and Testing",
+              "icon": "/images/services/sub-services/hardware-testing/antenna_design.png"
+            },
+            {
+              "id": 3,
+              "title": "Audio Measurements",
+              "icon": "/images/services/sub-services/hardware-testing/audio_measurements.png"
+            },
+            {
+              "id": 4,
+              "title": "HWUI Testing",
+              "icon": "/images/services/sub-services/hardware-testing/HWUI_testing.png"
+            },
+            {
+              "id": 5,
+              "title": "Environmental Testing",
+              "icon": "/images/services/sub-services/hardware-testing/environmental_testing.png"
+            },
+            {
+              "id": 6,
+              "title": "Mechanical Testing",
+              "icon": "/images/services/sub-services/hardware-testing/mechanical_testing.png"
+            },
+            {
+              "id": 7,
+              "title": "Reliability Testing Automated Tester Solution",
+              "icon": "/images/services/sub-services/hardware-testing/reliability_testing.png"
+            }
+          ]
+        },
+        "previous_projects": {
+          "title": "The Solution We've Engineered:",
+          "title_highlight": "Tailored for Success",
+          "description": "",
+          "image": "",
+          "projects": [
+            {
+              "title": "Grameenphone Vehicle Tracking Software Platform (GP VTS)",
+              "image": "gp_vts_portfolio.png",
+              "category": [
+                "vts"
+              ],
+              "description": "Our advanced GP Vehicle Tracking Software provides precise real-time tracking and monitoring capabilities for vehicles and assets.",
+              "href": "/portfolio/gp-vts"
+            },
+            {
+              "title": "Nexdecade Vehicle Tracking Software Platform",
+              "image": "nexdecade_vts_portfolio.png",
+              "category": [
+                "vts"
+              ],
+              "description": "Nexdecade's tracking platform offers efficient vehicle tracking with customizable alerts and detailed analytics.",
+              "href": "/portfolio/nexdecade-vts"
+            },
+            {
+              "title": "Vehicle Management System Software",
+              "image": "vehicle_management_portfolio.png",
+              "category": [
+                "vms"
+              ],
+              "description": "A robust system to manage and track vehicles efficiently, ensuring optimal fleet performance.",
+              "href": "/portfolio/vehicle-management"
+            },
+            {
+              "title": "Banglalink Entertainment Platform (Toffee)",
+              "image": "toffee_portfolio.png",
+              "category": [
+                "ott"
+              ],
+              "description": "Banglalink's OTT platform, Toffee, provides a diverse range of entertainment options with seamless streaming and user-friendly features.",
+              "href": "/portfolio/toffee"
+            },
+            {
+              "title": "Billing Management Software",
+              "image": "billing_management_portfolio.png",
+              "category": [
+                "billing"
+              ],
+              "description": "This software ensures smooth and efficient billing operations with integrated features for invoice management and payment tracking.",
+              "href": "/portfolio/billing-management"
+            },
+            {
+              "title": "Customer Management Software",
+              "image": "customer_management_portfolio.png",
+              "category": [
+                "customer-management"
+              ],
+              "description": "Manage customer interactions and data effectively with a centralized platform that offers detailed insights and analytics.",
+              "href": "/portfolio/customer-management"
+            },
+            {
+              "title": "Ticketing Software",
+              "image": "ticketing_software_portfolio.png",
+              "category": [
+                "ticketing"
+              ],
+              "description": "An intuitive ticketing system that streamlines the process of selling, managing, and distributing tickets for events and services.",
+              "href": "/portfolio/ticketing"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "slug": "ott",
+      "title": "Over The Top (OTT)",
+      "description": "Deliver media content directly to viewers over the internet without traditional cable or satellite TV. Nexdecade's OTT solutions provide a flexible platform for streaming services, ensuring a high-quality viewing experience across multiple devices.",
+      "image": "ott.png",
+      "link": "/services/ott",
+      "subComponents": [
+        {
+          "name": "Streaming Platforms",
+          "icon": "streaming_platforms.svg"
+        },
+        {
+          "name": "Content Management",
+          "icon": "content_management.svg"
+        },
+        {
+          "name": "User Analytics",
+          "icon": "user_analytics.svg"
+        }
+      ],
+      "subService": {
+        "id": 3,
+        "slug": "ott",
+        "title": "Over The Top (OTT)",
+        "overview": {
+          "title": "Overview",
+          "description": "Over the past five years, Over-the-Top (OTT) video services have garnered significant attention as a novel platform, particularly in the United States. Recently, Bangladesh has embraced this trend over the last year and a half, with Nexdecade pioneering the development of its own hardware and software for OTT services. Currently, we oversee operations for Bengal Screen and Toffee.\nThe expansion of OTT services owes much to advancements in broadband infrastructure and the strategic distribution efforts of content providers, including Pay TV operators. These strategies have extended OTT platforms beyond traditional television to mobile devices such as smartphones and tablets. Pay TV providers are actively broadening their OTT offerings to enrich subscriber experiences with abundant content, ensuring seamless access to Video-on-Demand (VOD) and live TV across multiple devices. To stay ahead in this dynamic market and meet evolving subscriber demands, we have secured cutting-edge OTT platforms, particularly in Android TV, enhancing VOD capabilities across secondary devices.",
+          "image": "/images/services/sub-services/overview/overview_ott.png"
+        },
+        "ott_services": {
+          "title": "OTT Software ",
+          "title_highlight": "Development Services",
+          "sub_title": "",
+          "description": "The future isn't approaching; it's already here. We provide a comprehensive suite of OTT platform services to enable you to transcend conventional boundaries and innovate beyond reality.",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "Custom Software Development",
+              "icon": "/images/services/sub-services/ott-services/custom_software_development.png"
+            },
+            {
+              "id": 2,
+              "title": "Web Application Development",
+              "icon": "/images/services/sub-services/ott-services/web_application_development.png"
+            },
+            {
+              "id": 3,
+              "title": "Mobile App Development",
+              "icon": "/images/services/sub-services/ott-services/mobile_app_development.png"
+            },
+            {
+              "id": 4,
+              "title": "Custom Software Design",
+              "icon": "/images/services/sub-services/ott-services/custom_software_design.png"
+            },
+            {
+              "id": 5,
+              "title": "Cloud Architecture and Deployment",
+              "icon": "/images/services/sub-services/ott-services/cloud_architecture_deployment.png"
+            },
+            {
+              "id": 6,
+              "title": "Network Infrastructure",
+              "icon": "/images/services/sub-services/ott-services/network_infrastructure.png"
+            },
+            {
+              "id": 7,
+              "title": "Support and Helpdesk Services",
+              "icon": "/images/services/sub-services/ott-services/support_helpdesk_services.png"
+            },
+            {
+              "id": 8,
+              "title": "Consulting and Advisory Services",
+              "icon": "/images/services/sub-services/ott-services/consulting_advisory_services.png"
+            }
+          ]
+        },
+        "development_services": {
+          "title": "Essential Elements of OTT Software Development:",
+          "title_highlight": "Bridging Providers and Users",
+          "sub_title": "We Ensure",
+          "description": "Hiring a software development firm provides businesses of all sizes with cost-effective and high-quality services, crucial for achieving customer satisfaction in a competitive market. Partnering with such firms offers various additional benefits, ensuring business sustainability. Therefore, engaging a custom software development company with the necessary skills and expertise is essential.",
+          "image": "/images/services/sub-services/development-services/development_service_OTT.png",
+          "services": [
+            {
+              "id": 1,
+              "title": "Chip-sets"
+            },
+            {
+              "id": 2,
+              "title": "Communication software"
+            },
+            {
+              "id": 3,
+              "title": "Consumer electronics"
+            },
+            {
+              "id": 4,
+              "title": "Content creation and delivery"
+            },
+            {
+              "id": 5,
+              "title": "Digital advertising"
+            },
+            {
+              "id": 6,
+              "title": "Network equipment"
+            }
+          ]
+        },
+        "connected_with": {
+          "title": "We are ",
+          "title_highlight": "Connected with",
+          "description": "",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "",
+              "icon": "/images/services/sub-services/connected-with/bringe.png"
+            },
+            {
+              "id": 2,
+              "title": "",
+              "icon": "/images/services/sub-services/connected-with/bioscope.png"
+            },
+            {
+              "id": 3,
+              "title": "",
+              "icon": "/images/services/sub-services/connected-with/bongo.png"
+            },
+            {
+              "id": 4,
+              "title": "",
+              "icon": "/images/services/sub-services/connected-with/toffee.png"
+            },
+            {
+              "id": 5,
+              "title": "",
+              "icon": "/images/services/sub-services/connected-with/t-sports.png"
+            }
+          ]
+        },
+        "previous_projects": {
+          "title": "The Solution We've Engineered:",
+          "title_highlight": "Tailored for Success",
+          "description": "",
+          "image": "",
+          "projects": [
+            {
+              "title": "Grameen-phone Vehicle Tracking Software Platform (GP VTS)",
+              "image": "gp_vts_portfolio.png",
+              "category": [
+                "vts"
+              ],
+              "description": "Our advanced GP Vehicle Tracking Software provides precise real-time tracking and monitoring capabilities for vehicles and assets.",
+              "href": "/portfolio/gp-vts"
+            },
+            {
+              "title": "Nexdecade Vehicle Tracking Software Platform",
+              "image": "nexdecade_vts_portfolio.png",
+              "category": [
+                "vts"
+              ],
+              "description": "Nexdecade's tracking platform offers efficient vehicle tracking with customizable alerts and detailed analytics.",
+              "href": "/portfolio/nexdecade-vts"
+            },
+            {
+              "title": "Vehicle Management System Software",
+              "image": "vehicle_management_portfolio.png",
+              "category": [
+                "vms"
+              ],
+              "description": "A robust system to manage and track vehicles efficiently, ensuring optimal fleet performance.",
+              "href": "/portfolio/vehicle-management"
+            },
+            {
+              "title": "Banglalink Entertainment Platform (Toffee)",
+              "image": "toffee_portfolio.png",
+              "category": [
+                "ott"
+              ],
+              "description": "Banglalink's OTT platform, Toffee, provides a diverse range of entertainment options with seamless streaming and user-friendly features.",
+              "href": "/portfolio/toffee"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "slug": "vehicle-tracking-system",
+      "title": "Vehicle Tracking System",
+      "description": "Real-time tracking solutions that provide insights into vehicle locations, speed, and routes. Our system enhances fleet management by offering precise data and reporting, improving operational efficiency and reducing costs.",
+      "image": "vehicle-tracking.png",
+      "link": "/services/vehicle-tracking-system",
+      "subComponents": [
+        {
+          "name": "IOS",
+          "icon": "ios.svg"
+        },
+        {
+          "name": "Android",
+          "icon": "android.svg"
+        },
+        {
+          "name": "WEB",
+          "icon": "web.svg"
+        }
+      ],
+      "subService": {
+        "id": 4,
+        "slug": "vehicle-tracking-system",
+        "title": "Vehicle Tracking System",
+        "overview": {
+          "title": "Overview",
+          "description": "A vehicle tracking system design involves developing a robust infrastructure to monitor and manage the movement of vehicles in real-time. It includes components like GPS receivers, communication interfaces, databases for storing location data, and user interfaces for visualization and control. The design aims to ensure accuracy, reliability, and efficiency in tracking vehicle locations, enabling functionalities such as route optimization, fleet management, and theft prevention.",
+          "image": "/images/services/sub-services/overview/overview.png",
+          "link": "#"
+        },
+        "approved_by": {
+          "title": "Approved By",
+          "title_highlight": "",
+          "description": "",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "BSTI",
+              "image": "/images/services/sub-services/approved-by/bsti.png"
+            },
+            {
+              "id": 2,
+              "title": "BRTC",
+              "image": "/images/services/sub-services/approved-by/brtc.png"
+            },
+            {
+              "id": 3,
+              "title": "VTS-PAB",
+              "image": "/images/services/sub-services/approved-by/vtspab.png"
+            },
+            {
+              "id": 4,
+              "title": "BASIS",
+              "image": "/images/services/sub-services/approved-by/basis.png"
+            }
+          ]
+        },
+        "features": {
+          "title": "Features",
+          "description": "",
+          "image": "",
+          "features_list": [
+            {
+              "id": 1,
+              "title": "World Best GPS Network Coverage with 38 channels"
+            },
+            {
+              "id": 2,
+              "title": "Free Installation facilities all over Bangladesh within our installation area"
+            },
+            {
+              "id": 3,
+              "title": "Enhanced customized software and customized facilities, Live Alarm Viewer facilities"
+            },
+            {
+              "id": 4,
+              "title": "Vehicle Document Renewal Notification & Management"
+            },
+            {
+              "id": 5,
+              "title": "Sort Code facilities for SMS operations"
+            },
+            {
+              "id": 6,
+              "title": "Group, subgroup & child account facilities"
+            },
+            {
+              "id": 7,
+              "title": "Full Replacement Warranty 49 Types of Alerts and Notifications"
+            },
+            {
+              "id": 8,
+              "title": "High Level Security Protocol maintenance"
+            },
+            {
+              "id": 9,
+              "title": "Dedicated Technician facilities for more than 100 VTS in strategic ways"
+            },
+            {
+              "id": 10,
+              "title": "Best GSM (Grameenphone) Network Coverage With unlimited internet facilities"
+            },
+            {
+              "id": 11,
+              "title": "Expenditure panel by predetermining the values (Like Oil, Gas price, and Other things)"
+            },
+            {
+              "id": 12,
+              "title": "Emergency Engine Blocking"
+            },
+            {
+              "id": 13,
+              "title": "Dedicated 24/7 Support with professional call center"
+            },
+            {
+              "id": 14,
+              "title": "Nearest Vehicle Search Option"
+            },
+            {
+              "id": 15,
+              "title": "Real-time on-road tracking with the best GPS network"
+            },
+            {
+              "id": 16,
+              "title": "23 Types of reports with different and valuable report facilities for vehicles"
+            },
+            {
+              "id": 17,
+              "title": "0% downtime recorded for the last Nine years"
+            },
+            {
+              "id": 18,
+              "title": "API Integration facilities"
+            }
+          ]
+        },
+        "reports": {
+          "title": "Reports",
+          "description": "",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "Historical Tracking report",
+              "icon": "/images/services/sub-services/reports/historical_tracking_report.png"
+            },
+            {
+              "id": 2,
+              "title": "History Playback report",
+              "icon": "/images/services/sub-services/reports/history_playback_report.png"
+            },
+            {
+              "id": 3,
+              "title": "Details Trip report",
+              "icon": "/images/services/sub-services/reports/details_trip_report.png"
+            },
+            {
+              "id": 4,
+              "title": "Speed Analysis report",
+              "icon": "/images/services/sub-services/reports/speed_analysis_report.png"
+            },
+            {
+              "id": 5,
+              "title": "Vehicle Status report",
+              "icon": "/images/services/sub-services/reports/vehicle_status_report.png"
+            },
+            {
+              "id": 6,
+              "title": "Driver Profile report",
+              "icon": "/images/services/sub-services/reports/driver_profile_report.png"
+            },
+            {
+              "id": 7,
+              "title": "Travel Distance report",
+              "icon": "/images/services/sub-services/reports/travel_distance_report.png"
+            },
+            {
+              "id": 8,
+              "title": "Engine Run Time report",
+              "icon": "/images/services/sub-services/reports/engine_run_time_report.png"
+            },
+            {
+              "id": 9,
+              "title": "Nearest Vehicle Search report",
+              "icon": "/images/services/sub-services/reports/nearest_vehicle_search_report.png"
+            },
+            {
+              "id": 10,
+              "title": "Image Gallery report",
+              "icon": "/images/services/sub-services/reports/image_gallery_report.png"
+            },
+            {
+              "id": 11,
+              "title": "Halt report",
+              "icon": "/images/services/sub-services/reports/halt_report.png"
+            },
+            {
+              "id": 12,
+              "title": "Trip Count report",
+              "icon": "/images/services/sub-services/reports/trip_count_report.png"
+            },
+            {
+              "id": 13,
+              "title": "Fuel Consumption report",
+              "icon": "/images/services/sub-services/reports/fuel_consumption_report.png"
+            },
+            {
+              "id": 14,
+              "title": "Geo-fence report",
+              "icon": "/images/services/sub-services/reports/geo_fence_report.png"
+            },
+            {
+              "id": 15,
+              "title": "Over Speeding report",
+              "icon": "/images/services/sub-services/reports/over_speeding_report.png"
+            },
+            {
+              "id": 16,
+              "title": "SOS report",
+              "icon": "/images/services/sub-services/reports/sos_report.png"
+            },
+            {
+              "id": 17,
+              "title": "Battery Remove Alert report",
+              "icon": "/images/services/sub-services/reports/battery_remove_alert_report.png"
+            },
+            {
+              "id": 18,
+              "title": "Alarm Resolve report",
+              "icon": "/images/services/sub-services/reports/alarm_resolve_report.png"
+            },
+            {
+              "id": 19,
+              "title": "Trip List report",
+              "icon": "/images/services/sub-services/reports/trip_list_report.png"
+            },
+            {
+              "id": 20,
+              "title": "Trip-wise Travel Distance report",
+              "icon": "/images/services/sub-services/reports/trip_wise_travel_distance_report.png"
+            },
+            {
+              "id": 21,
+              "title": "Trip-wise Historical report",
+              "icon": "/images/services/sub-services/reports/trip_wise_historical_report.png"
+            },
+            {
+              "id": 22,
+              "title": "Expenditure report",
+              "icon": "/images/services/sub-services/reports/expenditure_report.png"
+            },
+            {
+              "id": 23,
+              "title": "Time frame-wise Halt report",
+              "icon": "/images/services/sub-services/reports/time_frame_wise_halt_report.png"
+            }
+          ]
+        },
+        "technologies": {
+          "title": "Technology We Used",
+          "description": "We recognize that modern companies need to develop customized software products to stay ahead in the competitive market.",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/dotnet.png"
+            },
+            {
+              "id": 2,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/java.png"
+            },
+            {
+              "id": 3,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/python.png"
+            },
+            {
+              "id": 4,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/php.png"
+            },
+            {
+              "id": 5,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/vue-js.png"
+            },
+            {
+              "id": 6,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/azure.png"
+            },
+            {
+              "id": 7,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/laravel.png"
+            },
+            {
+              "id": 8,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/flutter.png"
+            },
+            {
+              "id": 9,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/aws.png"
+            },
+            {
+              "id": 10,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/cpp.png"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "slug": "fleet-management",
+      "title": "Fleet Management System",
+      "description": "Comprehensive solutions for managing and maintaining your fleet efficiently. Nexdecade's fleet management system covers everything from vehicle tracking to driver behavior analysis, helping companies optimize their resources and improve safety.",
+      "image": "fleet-management.png",
+      "link": "/services/fleet-management",
+      "subComponents": [
+        {
+          "name": "Vehicle Diagnostics",
+          "icon": "vehicle_diagnostics.svg"
+        },
+        {
+          "name": "Driver Management",
+          "icon": "driver_management.svg"
+        },
+        {
+          "name": "Maintenance Scheduling",
+          "icon": "maintenance_scheduling.svg"
+        }
+      ],
+      "subService": {
+        "id": 5,
+        "slug": "fleet-management",
+        "title": "Fleet Management System",
+        "overview": {
+          "title": "Overview",
+          "description": "Fleet management aims to optimize costs, minimize risks, and improve efficiency in operations. Organizations often rely on fleet management software like Nexdecade to control expenses, enhance profitability, and reduce vehicle-related risks. This software not only oversees individual vehicles but also manages maintenance, inventory, work orders, fuel expenses, and provides crucial data for auditing and policy implementation to ensure passenger safety and operational effectiveness.",
+          "image": "/images/services/sub-services/overview/overview_VMS.png",
+          "link": "#"
+        },
+        "what_makes_us_different": {
+          "title": "What Makes Us Different",
+          "description": "",
+          "image": "",
+          "features_list": [
+            {
+              "id": 1,
+              "title": "Integration of GPS base Tracking with Fleet Management."
+            },
+            {
+              "id": 2,
+              "title": "Currently managing more than 12000 vehicles in GPS base tracking."
+            },
+            {
+              "id": 3,
+              "title": "Easy and Robust Web Based Interface for Clients."
+            },
+            {
+              "id": 4,
+              "title": "Real-Time SMS receiving & sending to User."
+            },
+            {
+              "id": 5,
+              "title": "Flexible Report Module."
+            },
+            {
+              "id": 6,
+              "title": "User Profile Management."
+            },
+            {
+              "id": 7,
+              "title": "Highly Secure & Scalable."
+            },
+            {
+              "id": 8,
+              "title": "Email/SMS Alert/Notification System."
+            },
+            {
+              "id": 9,
+              "title": "Strong Monitoring Tools and Loading of Services."
+            },
+            {
+              "id": 10,
+              "title": "Customization Facility."
+            },
+            {
+              "id": 11,
+              "title": "Experienced and Highly Qualified Engineer Support."
+            },
+            {
+              "id": 12,
+              "title": "Maintaining the Telco Grade Service."
+            }
+          ]
+        },
+        "how_it_works": {
+          "title": "How",
+          "title_highlight": "Fleet Management Works",
+          "description": "A fleet management model diagram visually represents the key components, processes, and interactions involved in efficiently managing a fleet of vehicles. It outlines entities such as vehicles, drivers, maintenance personnel, clients, and the fleet management system. Processes like vehicle acquisition, maintenance scheduling, route planning, and driver management are depicted, along with their interactions and feedback loops. Technologies such as GPS tracking, telematics, IoT sensors, and mobile applications play crucial roles in data collection, analysis, and communication within the fleet management system. Overall, the diagram serves as a comprehensive overview of the interconnected elements that contribute to the effective operation and optimization of a vehicle fleet.",
+          "image": "/images/services/sub-services/vms_works.png"
+        },
+        "technologies": {
+          "title": "Technology We Used",
+          "description": "We recognize that modern companies need to develop customized software products to stay ahead in the competitive market.",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/dotnet.png"
+            },
+            {
+              "id": 2,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/java.png"
+            },
+            {
+              "id": 3,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/python.png"
+            },
+            {
+              "id": 4,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/php.png"
+            },
+            {
+              "id": 5,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/vue-js.png"
+            },
+            {
+              "id": 6,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/azure.png"
+            },
+            {
+              "id": 7,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/laravel.png"
+            },
+            {
+              "id": 8,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/flutter.png"
+            },
+            {
+              "id": 9,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/aws.png"
+            },
+            {
+              "id": 10,
+              "title": "",
+              "icon": "/images/services/sub-services/technologies/cpp.png"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "slug": "iot",
+      "title": "Internet of Things (IoT)",
+      "description": "Connecting devices and systems for smarter operations. Our IoT solutions enable real-time monitoring, data collection, and automation, enhancing decision-making and operational efficiency across various industries.",
+      "image": "iot.png",
+      "link": "/services/iot",
+      "subComponents": [
+        {
+          "name": "Sensor Integration",
+          "icon": "sensor_integration.svg"
+        },
+        {
+          "name": "Data Analytics",
+          "icon": "data_analytics.svg"
+        },
+        {
+          "name": "Remote Monitoring",
+          "icon": "remote_monitoring.svg"
+        }
+      ],
+      "subService": {
+        "id": 6,
+        "slug": "iot",
+        "title": "Internet of Things (IoT)",
+        "overview": {
+          "title": "Overview",
+          "description": "Nexdecade Inc. offers comprehensive digital transformation and technology services, focusing on quality and client success. With over 15 years of expertise across various domains, we specialize in re-engineering business processes, optimizing resources, and delivering industry-specific solutions globally. Our dedicated team of technically qualified professionals ensures innovative, cost-effective solutions through rigorous methodologies, extensive testing, and ongoing support. We prioritize customer satisfaction by developing customized, efficient, and timely IT solutions tailored to meet diverse business challenges and enhance productivity.",
+          "image": "/images/services/sub-services/overview/overview_iot.png"
+        },
+        "development_services": {
+          "title": "Transforming Business Operations with",
+          "title_highlight": "Nexdecade's IoT Expertise",
+          "sub_title": "We Ensure",
+          "description": "Internet of Things at Nexdecade will transform your business requirements into competitor differentiators with innovative solutions. We specialize in offering services with improved efficiency, accuracy, and economic benefit to reduce human intervention through sensed or remotely controlled devices across existing network infrastructure. Our comprehensive IoT services help businesses grow globally.",
+          "image": "/images/services/sub-services/development-services/development_service_IOT.png",
+          "services": [
+            {
+              "id": 1,
+              "title": "Analyze new data easily"
+            },
+            {
+              "id": 2,
+              "title": "Integrating and transforming your business process"
+            },
+            {
+              "id": 3,
+              "title": "Enhanced decision making through Artificial Intelligence"
+            },
+            {
+              "id": 4,
+              "title": "Design, develop, create, deploy, and maintain end-to-end services"
+            },
+            {
+              "id": 5,
+              "title": "Scope and associate with efficiency"
+            }
+          ]
+        },
+        "services_solutions": {
+          "title": "Internet of Things (IoT)",
+          "title_highlight": "Services and Solutions",
+          "description": "As part of our total product design portfolio, Nexdecade provides professional baseband, embedded and user interface, electronics design, and testing services for companies designing products requiring excellent hardware performance. Nexdecade’s combination of baseband expertise and hardware laboratory facilities offers professional services for design and testing purposes.",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "Full Stack IoT Development",
+              "icon": "/images/services/sub-services/services-solutions/full-stack.png"
+            },
+            {
+              "id": 2,
+              "title": "IoT Engineering Services",
+              "icon": "/images/services/sub-services/services-solutions/IoT_product_engineering.png"
+            },
+            {
+              "id": 3,
+              "title": "IoT Product Engineering Services",
+              "icon": "/images/services/sub-services/services-solutions/IoT_product_engineering2.png"
+            },
+            {
+              "id": 4,
+              "title": "Production-Grade IoT Solution Development",
+              "icon": "/images/services/sub-services/services-solutions/production-grade.png"
+            },
+            {
+              "id": 5,
+              "title": "Industrial IoT Solutions (IIoT)",
+              "icon": "/images/services/sub-services/services-solutions/IIoT.png"
+            },
+            {
+              "id": 6,
+              "title": "IoT Device Management",
+              "icon": "/images/services/sub-services/services-solutions/IoT_device_management.png"
+            },
+            {
+              "id": 7,
+              "title": "IoT Gateway Development Services",
+              "icon": "/images/services/sub-services/services-solutions/IoT_gateway.png"
+            },
+            {
+              "id": 8,
+              "title": "IoT Data Management",
+              "icon": "/images/services/sub-services/services-solutions/IoT_data.png"
+            },
+            {
+              "id": 9,
+              "title": "Internet of Things (IoT) Analytics",
+              "icon": "/images/services/sub-services/services-solutions/IoT_analytics.png"
+            },
+            {
+              "id": 10,
+              "title": "Strategic IoT Consulting / IoT Advisory",
+              "icon": "/images/services/sub-services/services-solutions/IoT_advisory.png"
+            },
+            {
+              "id": 11,
+              "title": "Managed IoT Services and Support",
+              "icon": "/images/services/sub-services/services-solutions/managed_IoT.png"
+            },
+            {
+              "id": 12,
+              "title": "Remote Servicing Software Development",
+              "icon": "/images/services/sub-services/services-solutions/remote_servicing.png"
+            }
+          ]
+        },
+        "previous_projects": {
+          "title": "Innovative",
+          "title_highlight": "IoT Products",
+          "sub_title": "by Nexdecade",
+          "description": "",
+          "image": "",
+          "projects": [
+            {
+              "title": "Grameenphone Vehicle Tracking Software Platform (GP VTS)",
+              "image": "gp_vts_portfolio.png",
+              "category": [
+                "vts"
+              ],
+              "description": "Our advanced GP Vehicle Tracking Software provides precise real-time tracking and monitoring capabilities for vehicles and assets.",
+              "href": "/portfolio/gp-vts"
+            },
+            {
+              "title": "Nexdecade Vehicle Tracking Software Platform",
+              "image": "nexdecade_vts_portfolio.png",
+              "category": [
+                "vts"
+              ],
+              "description": "Nexdecade's tracking platform offers efficient vehicle tracking with customizable alerts and detailed analytics.",
+              "href": "/portfolio/nexdecade-vts"
+            },
+            {
+              "title": "Vehicle Management System Software",
+              "image": "vehicle_management_portfolio.png",
+              "category": [
+                "vms"
+              ],
+              "description": "A robust system to manage and track vehicles efficiently, ensuring optimal fleet performance.",
+              "href": "/portfolio/vehicle-management"
+            },
+            {
+              "title": "Banglalink Entertainment Platform (Toffee)",
+              "image": "toffee_portfolio.png",
+              "category": [
+                "ott"
+              ],
+              "description": "Banglalink's OTT platform, Toffee, provides a diverse range of entertainment options with seamless streaming and user-friendly features.",
+              "href": "/portfolio/toffee"
+            },
+            {
+              "title": "Billing Management Software",
+              "image": "billing_management_portfolio.png",
+              "category": [
+                "billing"
+              ],
+              "description": "This software ensures smooth and efficient billing operations with integrated features for invoice management and payment tracking.",
+              "href": "/portfolio/billing-management"
+            },
+            {
+              "title": "Customer Management Software",
+              "image": "customer_management_portfolio.png",
+              "category": [
+                "customer-management"
+              ],
+              "description": "Manage customer interactions and data effectively with a centralized platform that offers detailed insights and analytics.",
+              "href": "/portfolio/customer-management"
+            },
+            {
+              "title": "Ticketing Software",
+              "image": "ticketing_software_portfolio.png",
+              "category": [
+                "ticketing"
+              ],
+              "description": "An easy-to-use ticketing system designed to streamline event management and customer support processes.",
+              "href": "/portfolio/ticketing-software"
+            },
+            {
+              "title": "Dashboard Management System",
+              "image": "dashboard_management_portfolio.png",
+              "category": [
+                "dashboard"
+              ],
+              "description": "Our dashboard management system provides real-time analytics and monitoring, offering a comprehensive overview of business operations.",
+              "href": "/portfolio/dashboard-management"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "slug": "gsm-attendance",
+      "title": "GSM Attendance",
+      "description": "Track attendance using GSM technology for a seamless and reliable attendance management system. Ideal for businesses seeking a robust solution that works in various environments and locations without the need for internet connectivity.",
+      "image": "gsm-attendance.png",
+      "link": "/services/gsm-attendance",
+      "subComponents": [
+        {
+          "name": "Attendance Logging",
+          "icon": "attendance_logging.svg"
+        },
+        {
+          "name": "Remote Access",
+          "icon": "remote_access.svg"
+        },
+        {
+          "name": "Reporting Tools",
+          "icon": "reporting_tools.svg"
+        }
+      ],
+      "subService": {
+        "id": 7,
+        "slug": "gsm-attendance",
+        "title": "GSM Attendance",
+        "overview": {
+          "title": "Overview",
+          "description": "The NEXSECURE Attendance System is a digital GSM-based solution using microcontrollers, designed to manage attendance and restrict access to authorized personnel. It is versatile and suitable for various environments such as corporate offices, schools, colleges, universities, SMEs, shops, ATMs, and remote monitoring/control applications. The system ensures security and efficiency in attendance management and access control across different settings.",
+          "image": "/images/services/sub-services/overview/overview_GMS_attendance.png"
+        },
+        "what_makes_us_different": {
+          "title": "What Makes Us Different",
+          "title_highlight": "",
+          "image": "#",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "Wireless Communication",
+              "icon": "/images/services/sub-services/what-makes-us-different-card/wireless_communication.png"
+            },
+            {
+              "id": 2,
+              "title": "Real-time Access Monitoring",
+              "icon": "/images/services/sub-services/what-makes-us-different-card/real_time_access_monitoring.png"
+            },
+            {
+              "id": 3,
+              "title": "Server Based Management System",
+              "icon": "/images/services/sub-services/what-makes-us-different-card/server_based_management.png"
+            },
+            {
+              "id": 4,
+              "title": "Sophisticated & Yet Easy",
+              "icon": "/images/services/sub-services/what-makes-us-different-card/sophisticated_yet_easy.png"
+            },
+            {
+              "id": 5,
+              "title": "Easy & Quick Installation",
+              "icon": "/images/services/sub-services/what-makes-us-different-card/easy_quick_installation.png"
+            },
+            {
+              "id": 6,
+              "title": "Simple User Interface",
+              "icon": "/images/services/sub-services/what-makes-us-different-card/simple_user_interface.png"
+            }
+          ]
+        },
+        "how_it_works": {
+          "title": "How",
+          "title_highlight": "GSM Attendance Works",
+          "description": "The GSM (Global System for Mobile Communications) attendance system architecture typically consists of several key components that work together to manage attendance and facilitate communication. Here's a simplified explanation of its architecture:",
+          "image": "/images/services/sub-services/gms_works.png"
+        },
+        "development_services": {
+          "title": "Benefits from",
+          "title_highlight": "Device Features",
+          "sub_title": "Web Portal Features",
+          "description": "Hiring a software development firm provides businesses of all sizes with cost-effective and high-quality services, crucial for achieving customer satisfaction in a competitive market. Partnering with such firms offers various additional benefits, ensuring business sustainability. Therefore, engaging a custom software development company with the necessary skills and expertise is essential.",
+          "image": "/images/services/sub-services/development-services/development_service_GSM.png",
+          "services": [
+            {
+              "id": 1,
+              "title": "User Management."
+            },
+            {
+              "id": 2,
+              "title": "Remotely User Registration Facility."
+            },
+            {
+              "id": 3,
+              "title": "Role-based and schedule-based User Attendance Monitoring with highly Customizable Hierarchical Permission."
+            },
+            {
+              "id": 4,
+              "title": "Card Management (Internal Card/Visitor Card)."
+            },
+            {
+              "id": 5,
+              "title": "Job management for scheduled/temporary access and attendance."
+            },
+            {
+              "id": 6,
+              "title": "Real-Time Attendance & Access Log."
+            },
+            {
+              "id": 7,
+              "title": "Custom Development & Integration."
+            },
+            {
+              "id": 8,
+              "title": "API Integration."
+            },
+            {
+              "id": 9,
+              "title": "Late Attendance Count & Tolerance level setting facilities."
+            },
+            {
+              "id": 10,
+              "title": "Group, Sub-group or Department-wise reporting facilities."
+            },
+            {
+              "id": 11,
+              "title": "Daily, Weekly, Monthly reporting facilities."
+            },
+            {
+              "id": 12,
+              "title": "Customizable Device Operational Settings."
+            }
+          ]
+        },
+        "development_services_reverse": {
+          "title": "Benefits from",
+          "title_highlight": "Development Services Web Portal",
+          "sub_title": "Device Features",
+          "description": "Hiring a software development firm provides businesses of all sizes with cost-effective and high-quality services, crucial for achieving customer satisfaction in a competitive market. Partnering with such firms offers various additional benefits, ensuring business sustainability. Therefore, engaging a custom software development company with the necessary skills and expertise is essential.",
+          "image": "/images/services/sub-services/development-services/development_service_GSM_reverse.png",
+          "services": [
+            {
+              "id": 1,
+              "title": "Fingerprint with Proximity Time Attendance/Access Control."
+            },
+            {
+              "id": 2,
+              "title": "2G/NB-IOT Based Communication."
+            },
+            {
+              "id": 3,
+              "title": "Battery backup in case of power failure."
+            },
+            {
+              "id": 4,
+              "title": "Control and Monitor remotely."
+            },
+            {
+              "id": 5,
+              "title": "No physical data connection like Ethernet, USB, Wi-Fi or Web-Interface etc. is required for configuration."
+            },
+            {
+              "id": 6,
+              "title": "Access Mode: Fingerprint, Card, PIN, Fingerprint & Card, Fingerprint & PIN."
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "slug": "set-top-box",
+      "title": "Set Top Box",
+      "description": "Deliver high-definition media content to users through innovative set-top boxes. Our solutions cater to cable operators and streaming services, providing a smooth and reliable viewing experience with advanced features.",
+      "image": "set-top-box.png",
+      "link": "/services/set-top-box",
+      "subComponents": [
+        {
+          "name": "Desktop Software",
+          "icon": "ui_design.svg"
+        },
+        {
+          "name": "Mobile Software",
+          "icon": "ux_design.svg"
+        },
+        {
+          "name": "Software Product",
+          "icon": "software_product.svg"
+        },
+        {
+          "name": "Web Based Design",
+          "icon": "web_based_design.svg"
+        },
+        {
+          "name": "Custom Software Solutions",
+          "icon": "custom_software.svg"
+        },
+        {
+          "name": "Enterprise Software",
+          "icon": "enterprise_software.svg"
+        }
+      ],
+      "subService": {
+        "id": 8,
+        "slug": "set-top-box",
+        "title": "Set Top Box",
+        "overview": {
+          "title": "Overview",
+          "description": "Television broadcasting has undergone substantial transformation in recent years, becoming more diverse and digital-centric. One prominent shift is the increasing digitization of television networks, particularly evident in cable systems. This trend is driven by the advantages of value-added services such as customizable channel packs, interactive content, high-definition channels, and on-demand video offerings. Furthermore, government mandates requiring the installation of set-top boxes (STBs) in countries like China and India have contributed significantly to the rapid expansion of the global STB market. Amidst these developments, a select group of top manufacturers dominate the industry, shaping its evolution.",
+          "image": "/images/services/sub-services/overview/overview_set-top-box.png"
+        },
+        "development_services": {
+          "title": "NextGen Set-Top Box: ",
+          "title_highlight": "Enhanced Connectivity",
+          "sub_title": "We Provide",
+          "description": "Discover our state-of-the-art set-top box offering unparalleled connectivity and entertainment features. With support for HDMI, RCA, and SPDIF audio/video connections, enjoy stunning video resolutions up to 1080p and versatile audio modes. Enhance your viewing experience with seamless channel management, USB 2.0 playback for PVR, pictures, and MP3s, and comprehensive parental control options. Ideal for home entertainment systems, our set-top box delivers exceptional performance and convenience for every user.",
+          "image": "/images/services/sub-services/development-services/development_service_set_top-box.png",
+          "services": [
+            {
+              "id": 1,
+              "title": "Audio/Video connections: HDMI, RCA, SPDIF"
+            },
+            {
+              "id": 2,
+              "title": "Video Resolution: 1080p/1080i/720p/576p/576i"
+            },
+            {
+              "id": 3,
+              "title": "Various channel editing functions (favorite, move, delete, and parental lock)."
+            },
+            {
+              "id": 4,
+              "title": "Support PVR/Picture/MP3 Playback via USB 2.0"
+            },
+            {
+              "id": 5,
+              "title": "Channel editor/favorite editor/parental control/sorting/NIT scan"
+            },
+            {
+              "id": 6,
+              "title": "Audio Mode: Stereo, Dual channel, Joint Stereo, Mono."
+            }
+          ]
+        },
+        "featuring": {
+          "title": "Featuring ",
+          "title_highlight": "Set Top Box",
+          "description": "",
+          "image": "",
+          "cards_list": [
+            {
+              "id": 1,
+              "title": "User Focused Interface",
+              "description": "Easy to use Channel Guide is an integral part of the Digital TV experience. We solely focused on User and how they interact with the interface.",
+              "icon": "/images/services/sub-services/featuring/user_focused.png"
+            },
+            {
+              "id": 2,
+              "title": "Ergonomic Remote",
+              "description": "Our remote not only looks good but it feels just right in your hand. With features such as Dedicated HD Key, takes the experience into a whole another level.",
+              "icon": "/images/services/sub-services/featuring/ergonomic_remote.png"
+            },
+            {
+              "id": 3,
+              "title": "Universal Key",
+              "description": "With one press of a button you can turn on both the TV and the Digital Set Top Box. Say \"Bye Bye\" to carrying two remotes.",
+              "icon": "/images/services/sub-services/featuring/universal_key.png"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "portfolio": [
+    {
+      "title": "Vehicle Tracking System",
+      "image": "vts_portfolio.png",
+      "category": ["vts"],
+      "description": "A state-of-the-art system for tracking vehicles in real-time, allowing for efficient monitoring of routes, assets, and driver performance, ensuring optimized logistics and security.",
+      "href": "#",
+      "slug": "vehicle-tracking"
+    },
+    {
+      "title": "Vehicle Management System",
+      "image": "vehicle_management_system.png",
+      "category": ["vts"],
+      "description": "A comprehensive system for overseeing vehicle fleets, ensuring smooth operations, maintenance scheduling, and compliance with safety regulations.",
+      "href": "#",
+      "slug": "vehicle-management"
+    },
+    {
+      "title": "OTT Platform",
+      "image": "ott_portfolio.png",
+      "category": ["ott"],
+      "description": "An advanced Over-The-Top (OTT) platform for streaming digital content with robust features such as multi-device support, personalized recommendations, and seamless video delivery.",
+      "href": "#",
+      "slug": "ott-platform"
+    },
+    {
+      "title": "Chat, Audio-Video System",
+      "image": "chat_audio_video_system.png",
+      "category": ["communication"],
+      "description": "A versatile communication tool offering real-time messaging, voice calls, and video conferencing for enhancing team collaboration and user engagement.",
+      "href": "#",
+      "slug": ""
+    },
+    {
+      "title": "Call Blast",
+      "image": "call_blast_system.png",
+      "category": ["communication"],
+      "description": "A targeted mass calling solution designed to help businesses and organizations run large-scale outreach, marketing campaigns, or emergency notifications efficiently.",
+      "href": "#",
+      "slug": ""
+    },
+    {
+      "title": "Learning Management System",
+      "image": "learning_management_system.png",
+      "category": ["education"],
+      "description": "A fully-featured LMS platform for delivering and managing online courses, tracking learner progress, and facilitating e-learning initiatives with ease.",
+      "href": "#",
+      "slug": ""
+    },
+    {
+      "title": "IoT Solutions",
+      "image": "iot_product_design.png",
+      "category": ["iot"],
+      "description": "A set of cutting-edge IoT solutions designed to offer smart automation, connectivity, and data collection for various industries, enabling intelligent operations.",
+      "href": "#",
+      "slug": "iot-product-design"
+    },
+    {
+      "title": "Ad Manager",
+      "image": "ad_manager_system.png",
+      "category": ["advertising", "dashboard"],
+      "description": "A feature-rich platform for managing online advertising campaigns, with tools for targeting, performance analysis, and cross-platform ad optimization.",
+      "href": "#",
+      "slug": ""
+    },
+    {
+      "title": "Telehealth App",
+      "image": "telehealth_portfolio.png",
+      "category": ["dashboard"],
+      "description": "A comprehensive telehealth solution that enables remote patient consultations, virtual care, and health monitoring, bringing convenience and accessibility to healthcare services.",
+      "href": "#",
+      "slug": "telehealth-app"
+    },
+    {
+      "title": "Inventory System",
+      "image": "inventory_portfolio.png",
+      "category": ["dashboard"],
+      "description": "A robust inventory management platform that enables real-time tracking of stock levels, automates reordering, and helps businesses optimize their supply chain efficiency.",
+      "href": "#",
+      "slug": "inventory-system"
+    }
+  ],
+  "contact_us": [
+    {
+      "title": "Contact Us",
+      "description": "We would love to hear from you!\nFor any inquiries, feedback, or support, please reach out to us:\n\nEmail: info@nexdecade.com\n\nWe'll get back to you as soon as possible!",
+      "keywords": ["contact us", "get in touch", "contact form", "contact", "hire"]
+    }
+  ],
+  "about_us": [
+    {
+      "title": "About Us",
+      "description": "Nexdecade Technology Pvt. Ltd is a leading technology service especially Vehicle Tracking Solutions Provider in Bangladesh.",
+      "keywords": ["about us", "about nexdecade", "nexdecade", "team", "team members"]
+    }
+  ],
+  "life_at_a_glance": [
+    {
+      "title": "Life Here",
+      "description": "At our company, culture and environment are intertwined to create a thriving community where every individual feels valued, supported, and empowered to reach their full potential. We foster a culture of collaboration, respect, and continuous learning, while also prioritizing sustainability and environmental stewardship in all our endeavors.",
+      "keywords": ["Life here", "life at a glance ", "Life", "Life at nexdecade", "nexdecade life"]
+    }
+  ],
+  "career": [
+    {
+      "title": "Career",
+      "description": "Apply to submit your CV and wait for a call from our Recruitment team.\nThe application process at Nexdecade is conducted in several stages. Lets explore.",
+      "keywords": ["Career", "Jobs", "job post", "openings", "opportunity","opportunities"]
+    }
+  ]
+}

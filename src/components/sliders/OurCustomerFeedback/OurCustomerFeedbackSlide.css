@@ -1,0 +1,54 @@
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative; /* Ensure the buttons are positioned relative to the Swiper container */
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 582px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+.mySwiper img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    width: 50px;
+    height: 50px;
+    /*background-color: rgba(0, 0, 0, 0.5); !* Ensure buttons are visible *!*/
+    /*color: white;*/
+    z-index: 10; /* Bring buttons to the front */
+    position: absolute;
+    top: 50%; /* Vertically center the buttons */
+    transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+    left: 20px; /* Position prev button on the left */
+}
+
+.swiper-button-next {
+    right: 20px; /* Position next button on the right */
+}
+
+/* Apply blur and rotate 45 degrees to all slides */
+.slide-item img {
+    filter: blur(5px);
+    transition: filter 0.5s ease, transform 0.5s ease;
+}
+
+/* Remove blur and rotation on the active slide */
+.swiper-slide-active img {
+    filter: blur(0);
+}

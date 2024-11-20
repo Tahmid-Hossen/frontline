@@ -1,0 +1,112 @@
+[
+  {
+    "department": "Customer Service",
+    "title": "Executive Customer Care",
+    "vacancies": 3,
+    "educationalRequirements": "Minimum Graduate from a reputed University or A levels.",
+    "jobRequirements": {
+      "age": "20 to 30 years",
+      "gender": "Male & Female both are allowed to apply.",
+      "workSchedule": "Must have ability to work on roster schedule including government holidays.",
+      "customerService": "Ensure quality customer service through hotline.",
+      "complaintsFollowUp": "Follow up on customer complaints.",
+      "customerNeeds": "Identify the customer’s needs.",
+      "communicationSkills": "Excellent communication skills with a strong sense of responsibility.",
+      "motivation": "Self-motivated and able to work under pressure in a fast-paced working environment.",
+      "technicalSkills": "Must have experience in Microsoft Office applications and emailing.",
+      "attributes": [
+        "Be responsible",
+        "Loyal",
+        "Self-motivated",
+        "Proactive",
+        "Result-oriented"
+      ],
+      "languageSkills": "Fluent in listening and spoken English, good at written English."
+    },
+    "experienceRequirements": "Freshers are highly encouraged to apply. Job experience from Mobile operator, ISP, Service provider will get preference.",
+    "jobNature": "Full-Time",
+    "salaryRange": "Negotiable.",
+    "otherBenefits": "As per company policy and rules.",
+    "location": "Panthapath, Dhaka."
+  },
+  {
+    "department": "Customer Service",
+    "title": "Network Infrastructure Lead",
+    "vacancies": 1,
+    "applicationDeadline": "27 Oct 2024",
+    "company": {
+      "name": "Nexdecade Technology (Pvt.) Ltd.",
+      "description": "Leading value added service provider in Bangladesh. We are working with all mobile telecom operators for more than 12 years with different services. Currently managing more than 20 million customers; pioneers in development for OTT / IPTV / IOT platform in Bangladesh. Licensed operator from BTRC.",
+      "employeeCount": 200,
+      "membership": "Member of BASIS"
+    },
+    "jobContext": "We are seeking a highly skilled Network Infrastructure Lead with deep expertise in Linux systems to manage, design, and maintain our distributed network infrastructure and storage systems.",
+    "keyResponsibilities": {
+      "NetworkDesignDeployment": [
+        "Lead the design and deployment of distributed network infrastructure, focusing on routing, switching, and storage integration.",
+        "Seamlessly integrate the network with multiple IIGs and efficiently manage the data path.",
+        "Troubleshoot complex network issues involving routing, switching, storage, and application layers."
+      ],
+      "NetworkStorageManagement": [
+        "Expert-level management of Linux systems for networking, storage, and security services.",
+        "Deploy, configure, and manage NFS storage servers and mount storage endpoints.",
+        "Manage network configurations using Cisco SDN, including F5 Load Balancer and NGINX web server environments for high availability.",
+        "Implement advanced Linux kernel tuning and network stack optimizations to ensure maximum performance and security."
+      ],
+      "LinuxExpertise": [
+        "Oversee and manage Linux-based network infrastructure, including firewalls, DNS, DHCP, and high-performance web servers.",
+        "Utilize Bash scripting and automation tools (e.g., Ansible, Puppet) to streamline network and server configuration management.",
+        "Perform Linux-based security hardening, including SELinux/AppArmor configuration, firewall rules, and system monitoring.",
+        "Analyze and troubleshoot Linux server performance issues using tools like iostat, vmstat, netstat, and tcpdump for advanced diagnostics."
+      ],
+      "OTTStreamingInfrastructure": [
+        "Design, deploy, and manage OTT streaming infrastructure, ensuring efficient operation of streaming applications such as Wowza, Nimble, Transcoder, and MUX.",
+        "Oversee transcoding workflows and optimize streaming systems for performance, scalability, and fault tolerance.",
+        "Integrate streaming infrastructure with Linux systems for content distribution, media processing, and secure delivery."
+      ],
+      "ContainerizationOrchestration": [
+        "Deploy and manage containerized applications using Docker.",
+        "Implement and manage Kubernetes for container orchestration, ensuring scalable and resilient deployment of network and streaming services.",
+        "Maintain secure and efficient Linux-based container environments, optimizing resource utilization and network traffic within the Kubernetes clusters."
+      ],
+      "CollaborationReporting": [
+        "Collaborate with cross-functional teams, including software development and operations, to ensure the integration of network, storage, and Linux-based infrastructure with project requirements.",
+        "Provide detailed reports on system performance, storage utilization, network issues, and infrastructure optimizations."
+      ]
+    },
+    "additionalRequirements": [
+      "Proven expertise in Linux system administration, including network services, storage management, and security.",
+      "Deep understanding of routing and switching protocols and deployment in distributed environments.",
+      "Hands-on experience with NFS storage server configuration, deployment, and management.",
+      "Strong knowledge of Cisco SDN network management, F5 Load Balancer, and NGINX web server configuration.",
+      "Proficiency in managing and optimizing OTT streaming infrastructure with applications like Wowza, Nimble, Zixi, and others.",
+      "Hands-on experience with MUX and Transcoder configuration and management for live TV channel streaming.",
+      "Strong background in Docker and Kubernetes, with hands-on experience deploying containerized applications.",
+      "Advanced troubleshooting skills using Linux-based diagnostic tools like tcpdump, iptables, iostat, netstat, and strace.",
+      "Expertise in Linux kernel tuning, system optimizations, and performance analysis.",
+      "Knowledge of CI/CD pipelines, with experience automating Linux systems using Ansible, Puppet, or Chef.",
+      "Experience with streaming infrastructure scaling in cloud environments (AWS, GCP, or Azure).",
+      "Knowledge of Kubernetes cluster management and Docker security best practices.",
+      "Strong understanding of firewalls, VPNs, and network security in Linux environments."
+    ],
+    "educationalRequirements": "Bachelor's degree in Computer Science, Information Technology, or a related field (or equivalent experience)",
+    "experienceRequirements": "10 years of experience in network infrastructure management.",
+    "compensationAndBenefits": {
+      "salary": "Negotiable, Most competitive & attractive package in the industry waiting for deserving candidates.",
+      "salaryReview": "Yearly",
+      "festivalBonus": "2 (Two)",
+      "otherBenefits": [
+        "As per company policy and rules.",
+        "An excellent culture encouraging collaboration, growth, and learning amongst the team.",
+        "A competitive salary and consideration for equity.",
+        "An ability to directly influence the direction of Nexdecade's product and business.",
+        "An autonomous and flexible role with key tasks.",
+        "An opportunity to have real impact and be part of a company with purpose.",
+        "A flexible workplace environment."
+      ]
+    },
+    "workPlace": "Work at office",
+    "jobNature": "Full Time",
+    "location": "Dhaka (PanthaPath)"
+  }
+]

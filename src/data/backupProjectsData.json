@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Vehicle Management System Software",
+    "image": "vehicle_management_portfolio.png",
+    "category": ["vms"],
+    "description": "A robust system to manage and track vehicles efficiently, ensuring optimal fleet performance.",
+    "href": "#",
+    "slug": "vehicle-management"
+  },
+  {
+    "title": "Banglalink Entertainment Platform (Toffee)",
+    "image": "toffee_portfolio.png",
+    "category": ["ott"],
+    "description": "Banglalink's OTT platform, Toffee, provides a diverse range of entertainment options with seamless streaming and user-friendly features.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Billing Management Software",
+    "image": "billing_management_portfolio.png",
+    "category": ["billing","dashboard"],
+    "description": "This software ensures smooth and efficient billing operations with integrated features for invoice management and payment tracking.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Customer Management Software",
+    "image": "customer_management_portfolio.png",
+    "category": ["cms","dashboard"],
+    "description": "Manage customer interactions and data effectively with a centralized platform that offers detailed insights and analytics.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Entertainment Platform (Toffee)",
+    "image": "entertainment_toffee_portfolio.png",
+    "category": ["ott"],
+    "description": "Toffee is Banglalink's leading OTT platform, offering a wide range of entertainment including movies, TV shows, live sports, and more, all with smooth streaming and a user-friendly interface.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "TSports",
+    "image": "tsports_portfolio.png",
+    "category": ["ott"],
+    "description": "TSports is Bangladesh's first sports streaming platform, providing live coverage of national and international sporting events, as well as exclusive highlights and analysis for sports enthusiasts.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Grameenphone (Bioscope)",
+    "image": "bioscope_portfolio.png",
+    "category": ["ott"],
+    "description": "Bioscope, Grameenphone's OTT platform, delivers a vast collection of movies, TV series, live TV channels, and exclusive content, ensuring high-quality entertainment for viewers across Bangladesh.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Set-Top Box Design, Testing, and Production",
+    "image": "set_top_box_design.png",
+    "category": ["set-top-box"],
+    "description": "A comprehensive solution for designing, testing, and producing set-top boxes, ensuring top-tier performance and reliability in broadcasting and content delivery.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "GSM Attendance Machine Design and Testing",
+    "image": "gsm_attendance_machine.png",
+    "category": ["gms", "dashboard"],
+    "description": "An innovative GSM-based attendance machine designed to streamline employee check-ins and enhance attendance tracking through mobile network integration.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Wireless Web Server",
+    "image": "wireless-web-server.png",
+    "category": ["iot"],
+    "description": "A compact wireless web server that allows seamless data exchange and real-time updates over the network for IoT devices.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "IoT Based Smart Camera",
+    "image": "IoT-Based-Smart-Camera.png",
+    "category": ["iot"],
+    "description": "A smart camera integrated with IoT to provide enhanced security, live monitoring, and real-time video feeds via a cloud network.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Air Pollution Meter",
+    "image": "Air-Pollution-Meter.png",
+    "category": ["iot"],
+    "description": "A cutting-edge IoT-enabled air pollution meter designed to measure and track air quality in real-time for a healthier environment.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Home Automation",
+    "image": "Home-Automation.png",
+    "category": ["iot"],
+    "description": "A complete IoT-based home automation system that allows users to control appliances, lighting, and security systems remotely.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Wireless Video Surveillance Robot",
+    "image": "Wireless-Video-Surveillance-Robot.png",
+    "category": ["iot"],
+    "description": "An IoT-controlled robot for wireless video surveillance, offering real-time monitoring and remote control capabilities for enhanced security.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Smart Garage Door",
+    "image": "Smart-Garage-Door.png",
+    "category": ["iot"],
+    "description": "A smart garage door opener that integrates with IoT systems for remote access, control, and monitoring from any device.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Automated Blinds",
+    "image": "Automated-Blinds.png",
+    "category": ["iot"],
+    "description": "IoT-powered automated blinds that offer smart control over natural lighting and privacy with voice commands or mobile app integration.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Humidity And Temperature Monitoring",
+    "image": "Humidity-And-Temperature-monitoring.png",
+    "category": ["iot"],
+    "description": "An advanced IoT solution for monitoring and managing humidity and temperature levels in real-time, ideal for smart homes and businesses.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Baggage Tracker",
+    "image": "Baggage-Tracker.png",
+    "category": ["iot"],
+    "description": "A reliable IoT-based baggage tracking system that provides real-time location updates and status notifications for luggage.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Smart Trash Collector",
+    "image": "Smart-Trash-Collector.png",
+    "category": ["iot"],
+    "description": "An innovative IoT solution for waste management that enables automatic trash collection and real-time monitoring of trash levels.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Sign To Speech Using the Internet of Things",
+    "image": "Sign-To-Speech-Using-Iot.png",
+    "category": ["iot"],
+    "description": "An IoT-based system that converts sign language into audible speech, empowering communication for individuals with speech disabilities.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "IoT Home with Hindi Voice Commands using Google Assistant",
+    "image": "IoT-Home-Hindi-Voice-Assistant.png",
+    "category": ["iot"],
+    "description": "An IoT-enabled smart home system that responds to Hindi voice commands via Google Assistant, offering full home automation in a regional language.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "IoT Product Design and Testing",
+    "image": "iot_product_design.png",
+    "category": ["iot"],
+    "description": "A range of IoT products designed and tested to provide smart connectivity and automation solutions across various industries, enhancing operational efficiency.",
+    "href": "#",
+    "slug": "iot-product-design"
+  },
+  {
+    "title": "Grameen-phone Vehicle Tracking Software Platform (GP VTS)",
+    "image": "gp_vts_portfolio.png",
+    "category": ["vts"],
+    "description": "Our advanced GP Vehicle Tracking Software provides precise real-time tracking and monitoring capabilities for vehicles and assets.",
+    "href": "#",
+    "slug": ""
+  },
+  {
+    "title": "Nexdecade Vehicle Tracking Software Platform",
+    "image": "nexdecade_vts_portfolio.png",
+    "category": ["vts"],
+    "description": "Nexdecade's tracking platform offers efficient vehicle tracking with customizable alerts and detailed analytics.",
+    "href": "#",
+    "slug": ""
+  }
+]
