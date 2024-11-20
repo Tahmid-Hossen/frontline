@@ -17,7 +17,7 @@
 } */
 
 body {
-    font-family: 'Roboto', 'Poppins', sans-serif;
+    font-family: 'Roboto', 'arial', 'Poppins', sans-serif;
     color: var(--foreground);
     background: var(--background);
     -webkit-font-smoothing: antialiased;

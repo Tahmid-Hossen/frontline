@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#EEF8FF] pt-8 text-[#0A142F]">
+      <footer className="bg-[#46266A] pt-8 text-[#fff]">
         <div className="container mx-auto px-4 md:px-8 lg:px-16">
           <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-8">
             {/* Company Information */}
@@ -15,12 +15,12 @@ const Footer = () => {
                   width={147}
                   height={30}
                   src="/images/logo.svg"
-                  alt="Nexdecade Logo"
+                  alt="Frontline Logo"
                   className="mx-auto md:mx-0 mb-4 h-auto w-40"
                 />
               </Link>
               <p className="text-sm leading-[18.75px]">
-                Nexdecade Technology Pvt. Ltd. is a leading software development company in Bangladesh.
+                Lorem ipsum dolor sit amet consectetur. Egestas faucibus velit adipiscing eget eleifend arcu. Elementum in sed nulla mi vivamus amet faucibus. Sed sed sed aenean id ipsum quam. Id dictum cursus ornare feugiat convallis scelerisque duis cursus.
               </p>
               <div className="flex items-center justify-center md:justify-start space-x-4 mt-4">
                 <Link target={"_blank"} to="https://www.linkedin.com/company/nexdecade"
@@ -164,19 +164,12 @@ const Footer = () => {
           </div>
 
           {/* Certifications & Copyright */}
-          <div className="flex flex-col lg:flex-row justify-between items-center mt-8 border-t py-3">
-            <div className="flex gap-6 items-center mb-4 lg:mb-0">
-              <img width={80} height={70} src="/images/icons/iso-footer.svg" alt="ISO" className="h-10 w-full"/>
-              <img width={80} height={70} src="/images/icons/brtc-certification.svg" alt="Certification"
-                   className="h-10 w-full"/>
-              <img width={80} height={70} src="/images/icons/vts.svg" alt="VTS" className="h-10 w-full"/>
-              <img width={80} height={70} src="/images/icons/basis.svg" alt="BASIS" className="h-10 w-full"/>
-            </div>
-            <p className="text-[#0A142F] text-sm text-center lg:text-right">
-              Copyright © 2024. All rights reserved by, <Link to={"/"}
-                                                              className={"font-medium md:text-primary hover:underline"}>Nexdecade
-              Technology Pvt. Ltd.</Link>
-            </p>
+          <div className="mt-8 border-t py-3">
+            <ul className="text-sm flex justify-center items-center gap-4">
+              <li><Link to="/faq" className="hover:text-primary">Privacy & Policies</Link></li>
+              <li><Link to="/about-us" className="hover:text-primary">Terms and Conditions</Link></li>
+              <li><Link to="/life-at-a-glance/career" className="hover:text-primary">Code of Conduct</Link></li>
+            </ul>
           </div>
         </div>
       </footer>
