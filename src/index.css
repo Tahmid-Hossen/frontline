@@ -248,16 +248,16 @@ body {
     }
 
     .btn-tab {
-        @apply min-w-[77px] !rounded-[2.5px] px-4 py-1.5 text-center capitalize text-primary border border-primary bg-transparent text-base md:text-[20px] leading-4 md:leading-6;
+        @apply min-w-[77px] !rounded-[2.5px] px-4 py-1.5 text-center capitalize text-primary  bg-transparent text-base md:text-[20px] font-roboto !font-medium leading-4 md:leading-6 text-main ;
     }
 
     .btn-tab {
-        @apply hover:text-white hover:bg-gradient-default hover:border-[#01AEFF];
+        @apply hover:text-white hover:bg-gradient-default ;
     }
 
     /* Active state styles */
     .btn-tab[data-state="active"] {
-        @apply !text-white !border-[#01AEFF] bg-gradient-default shadow-md;
+        @apply !text-white  bg-gradient-default shadow-md;
 
         .tab-count {
             @apply text-[#e2e8f0];
@@ -285,7 +285,7 @@ body {
     }
 
     .text-gradiant {
-        @apply inline font-semibold animate-gradient bg-gradient-to-br from-[#01ABFF] to-[#0173FF] bg-[length:var(--bg-size)_100%]  bg-clip-text text-transparent;
+        @apply inline font-semibold animate-gradient bg-gradient-to-br from-[#A68BFF] to-[#46266A] bg-[length:var(--bg-size)_100%]  bg-clip-text text-transparent;
     }
 
     .description {
@@ -298,6 +298,9 @@ body {
 
     .heading2 {
         @apply text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] font-semibold leading-[42px] md:leading-[48px] lg:leading-[52px] xl:leading-[56.25px] text-left
+    }
+    .heading4{
+        @apply text-[16px] md:text-[24px] lg:text-[24px] xl:text-[28px] font-semibold leading-[22px] md:leading-[28px] lg:leading-[22px] xl:leading-[36.25px] text-left
     }
 
     .service-title {

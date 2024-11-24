@@ -3,7 +3,7 @@ import AnimatedSection from "@/components/common/AnimatedSection.jsx";
 
 const BannerSection = ({title, backgroundImage}) => {
     return (
-        <div className="container relative mx-auto">
+        <div className="container relative mx-auto mt-4">
             <AnimatedSection className={"shadow-lg"}>
                 <img className={"w-full mx-auto rounded-lg"} src={backgroundImage}
                      alt={title?? '....'}/>

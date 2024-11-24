@@ -1,84 +1,84 @@
 {
   "cards": [
     {
-      "title": "Vehicle Tracking System",
-      "image": "vts_portfolio.png",
-      "category": ["vts"],
-      "description": "A state-of-the-art system for tracking vehicles in real-time, allowing for efficient monitoring of routes, assets, and driver performance, ensuring optimized logistics and security.",
+      "title": "Influencer Marketing",
+      "image": "influencer_marketing.png",
+      "category": ["Digital Ads"],
+      "description": "Promote your brand effectively through top influencers on social media platforms, driving engagement and increasing brand awareness.",
       "href": "#",
-      "slug": "vehicle-tracking"
+      "slug": "influencer-marketing"
     },
     {
-      "title": "Vehicle Management System",
-      "image": "vehicle_management_system.png",
-      "category": ["vts"],
-      "description": "A comprehensive system for overseeing vehicle fleets, ensuring smooth operations, maintenance scheduling, and compliance with safety regulations.",
+      "title": "Billboard Advertisement",
+      "image": "billboard_advertisement.png",
+      "category": ["Digital Ads"],
+      "description": "Capture attention with high-impact billboard advertisements placed at strategic locations to maximize visibility and brand reach.",
       "href": "#",
-      "slug": "vehicle-management"
+      "slug": "billboard-advertisement"
     },
     {
-      "title": "OTT Platform",
-      "image": "ott_portfolio.png",
-      "category": ["ott"],
-      "description": "An advanced Over-The-Top (OTT) platform for streaming digital content with robust features such as multi-device support, personalized recommendations, and seamless video delivery.",
+      "title": "Media Buying",
+      "image": "media_buying.png",
+      "category": ["Digital Ads"],
+      "description": "Streamline your advertising efforts with our expert media buying services, ensuring optimal ad placement and cost efficiency.",
       "href": "#",
-      "slug": "ott-platform"
+      "slug": "media-buying"
     },
     {
-      "title": "Chat, Audio-Video System",
-      "image": "chat_audio_video_system.png",
-      "category": ["communication"],
-      "description": "A versatile communication tool offering real-time messaging, voice calls, and video conferencing for enhancing team collaboration and user engagement.",
+      "title": "Influencer Marketing-2",
+      "image": "influencer_marketing_2.png",
+      "category": ["Digital Ads"],
+      "description": "Leverage the power of trusted influencers to connect with your target audience and boost your brand's credibility and sales.",
       "href": "#",
-      "slug": ""
+      "slug": "influencer-marketing-2"
     },
     {
-      "title": "Call Blast",
-      "image": "call_blast_system.png",
-      "category": ["communication"],
-      "description": "A targeted mass calling solution designed to help businesses and organizations run large-scale outreach, marketing campaigns, or emergency notifications efficiently.",
+      "title": "Digital Marketing",
+      "image": "digital_marketing.png",
+      "category": ["Digital Ads"],
+      "description": "Comprehensive digital marketing strategies to grow your online presence, drive traffic, and generate leads through SEO, PPC, and social media.",
       "href": "#",
-      "slug": ""
+      "slug": "digital-marketing"
     },
     {
-      "title": "Learning Management System",
-      "image": "learning_management_system.png",
-      "category": ["education"],
-      "description": "A fully-featured LMS platform for delivering and managing online courses, tracking learner progress, and facilitating e-learning initiatives with ease.",
+      "title": "Company Project Outdoor Branding",
+      "image": "outdoor_branding.png",
+      "category": ["Transport"],
+      "description": "Transform public spaces with customized outdoor branding solutions that enhance brand visibility and make a lasting impression.",
       "href": "#",
-      "slug": ""
+      "slug": "outdoor-branding"
     },
     {
-      "title": "IoT Solutions",
-      "image": "iot_product_solution.png",
-      "category": ["iot"],
-      "description": "A set of cutting-edge IoT solutions designed to offer smart automation, connectivity, and data collection for various industries, enabling intelligent operations.",
+      "title": "Billboard Advertisement",
+      "image": "billboard_advertisement_2.png",
+      "category": ["LED"],
+      "description": "Innovative billboard advertising solutions with LED technology to deliver impactful and visually stunning campaigns.",
       "href": "#",
-      "slug": "iot-product-design"
+      "slug": "billboard-advertisement-led"
     },
     {
-      "title": "Ad Manager",
-      "image": "ad_manager_system.png",
-      "category": ["advertising", "dashboard"],
-      "description": "A feature-rich platform for managing online advertising campaigns, with tools for targeting, performance analysis, and cross-platform ad optimization.",
+      "title": "Road and Highway Sign Board",
+      "image": "road_sign_board.png",
+      "category": ["LED"],
+      "description": "Durable and clear highway signboards designed for effective communication of directions, warnings, and advertisements.",
       "href": "#",
-      "slug": ""
+      "slug": "road-sign-board"
     },
     {
-      "title": "Telehealth App",
-      "image": "telehealth_portfolio.png",
-      "category": ["dashboard"],
-      "description": "A comprehensive telehealth solution that enables remote patient consultations, virtual care, and health monitoring, bringing convenience and accessibility to healthcare services.",
+      "title": "SS Letter Signage",
+      "image": "ss_letter_signage.png",
+      "category": ["LED"],
+      "description": "High-quality stainless steel letter signage for businesses, offering a professional and elegant branding solution.",
       "href": "#",
-      "slug": "telehealth-app"
+      "slug": "ss-letter-signage"
     },
     {
-      "title": "Inventory System",
-      "image": "inventory_portfolio.png",
-      "category": ["dashboard"],
-      "description": "A robust inventory management platform that enables real-time tracking of stock levels, automates reordering, and helps businesses optimize their supply chain efficiency.",
+      "title": "Transport Sticker Branding",
+      "image": "transport_sticker_branding.png",
+      "category": ["Transport"],
+      "description": "Custom transport stickers for branding vehicles, ensuring high visibility and mobile advertising for your business.",
       "href": "#",
-      "slug": "inventory-system"
+      "slug": "transport-sticker-branding"
     }
   ],
   "section": {

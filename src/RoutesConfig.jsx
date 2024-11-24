@@ -87,7 +87,7 @@ const RoutesConfig = () => (
           element={
               <>
                   <Helmet>
-                      <title>Our Works - Nexdecade Technology Private Ltd.</title>
+                      <title>Our Works - Frontline.</title>
                   </Helmet>
                   <OurWorks/>
               </>
@@ -98,7 +98,7 @@ const RoutesConfig = () => (
           element={
               <>
                   <Helmet>
-                      <title>Our Work - Nexdecade Technology Private Ltd.</title>
+                      <title>Our Work - Frontline.</title>
                   </Helmet>
                   <SinglePortfolio/>
               </>

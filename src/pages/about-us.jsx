@@ -2,6 +2,8 @@ import BreadCrumb from "@/components/breadcrumb/BreadCrumb";
 import ProfileImage from "@/components/common/ProfileImage";
 import TeamOverview from "@/components/services/subservices/TeamOverview";
 import AnimatedSection from "@/components/common/AnimatedSection";
+import BannerSection from "@/components/BannerSection/BannerSection.jsx";
+import SubscribeSection from "@/components/SubscribeSection/SubscribeSection.jsx";
 
 const teamProfiles = [
   {
@@ -202,195 +204,104 @@ const aboutSection = [
   },
 ];
 const teamOverviewData = {
-  title: "Company",
-  title_highlight: "Overview",
+  title: "",
+  title_highlight: "Frontline At A Glance",
   sections: [
-    {id: 1, year: "2006", description: "Founded Year"},
-    {id: 2, value: "120+", description: "Total Projects"},
-    {id: 3, value: "1600+", description: "Happy Clients"},
-    {id: 4, year: "64", description: "Coverage in Districts"}
+    {id: 1, year: "98", description: "Frontline reaches over 98% of OOH media in the BD"},
+    {id: 2, value: "100+", description: "Frontline partners with over 100 media owners."},
+    {id: 3, value: "65+", description: "More than 65 creatives completed"},
+    {id: 4, year: "24", description: "Frontline services Available in 24 cities in Bangladesh ."}
   ]
 };
 const whatWeAreContent = `
     <p class="">
-    Nexdecade Technology Pvt. Ltd. is a leading software development company in Bangladesh, dedicated to delivering innovative and scalable technology solutions since 2006. With a strong commitment to excellence, we have become pioneers in providing end-to-end OTT platform management for some of the country's top brands, including Toffee, BINGE, BIOSCOPE, and TSports. Our expertise extends beyond OTT, encompassing Vehicle Tracking and Management Systems (VTS/VMS), Ad management platforms, third-party CDN solutions, chat and calling applications, and inventory management systems.
+    <strong>Frontline</strong> is the premier out-of-home advertising platform in the country, working to avail data-driven outdoor advertising for brands in Bangladesh by tapping into the gig economy and our tech-based OOH platform
   </p>
   <p class="">
-    We take pride in our ability to offer a diverse range of services that meet the ever-evolving needs of our clients. Our solutions are designed to be robust, reliable, and customizable, ensuring seamless integration and enhanced operational efficiency for businesses across industries. With a focus on customer satisfaction and long-term partnerships, we strive to lead the digital transformation in Bangladesh and beyond.
+    Frontline understands its role in driving cultural impact. We are embedded into the fabric of our communities and trusted by the millions who engage with our media every day, driving a strong relationship between brands and audiences.
   </p>
   <p class="">
-    At Nexdecade, we believe in innovation, collaboration, and delivering impactful results that drive growth and success for our clients.
+    We are leading the industry, bringing intelligence to out of home by deploying digital at scale and embracing new technologies.
   </p>
 `;
+const sectionData = {
+  mission: "Our mission is to revolutionize the advertising industry by combining innovation and cutting-edge technology.",
+  vision: "Our vision is to empower brands to connect with audiences in meaningful and impactful ways.",
+  goals: [
+    {
+      title: "Transforming the OOH Advertising Industry",
+      description: "We take pride in offering hassle-free and highly effective on-vehicle outdoor advertising solutions for brands. Our mission is to simplify the advertising process while maximizing visibility and impact."
+    },
+    {
+      title: "Create Opportunities",
+      description: "By partnering with us, billboard owners can turn their assets into revenue-generating tools. We ensure a stress-free experience for advertisers and property owners alike."
+    },
+    {
+      title: "Merging Technology with OOH Advertising",
+      description: "Our data-driven platform empowers brands with precise control over their outdoor campaigns through advanced technology."
+    },
+    {
+      title: "Create a Better Digital Bangladesh",
+      description: "We are committed to developing an innovative advertising platform that transforms outdoor advertising in Bangladesh through technology."
+    }
+  ]
+};
 const AboutUs = () => {
-  const breadcrumbs = [
-    {label: 'Home', href: '/'},
-    {label: 'About Us'},
-  ];
+
   return (
     <section className="bg-white mb-16">
-      <BreadCrumb
-        backgroundImage={"/images/banner/our-services-banner-bg.png"}
-        title={"About Nexdecade"}
-        description="Nexdecade leads the way in next-generation IT services, technological solutions, and digital transformations. Our mission is to empower businesses to thrive in tomorrow's marketplace. We are dedicated to fostering innovation by delivering cutting-edge technology solutions worldwide. Join us in spearheading your digital transformation journey with Nexdecade, on a global scale."
-        breadcrumbs={breadcrumbs}
-      />
+      <BannerSection title={'Get to Know US'} backgroundImage={'/images/banner/our-work-banner.png'}/>
       <div className="container mx-auto px-4 py-8">
         {/* Who Are We Section */}
-        <section className="flex flex-col md:flex-row items-center justify-center pb-12">
-          <div className="md:w-1/2 pr-8">
-            <h3 className={`text-left heading1 mb-6`}>Who <span
-              className="text-gradiant">Are we?</span></h3>
-            <div className="text-gray-800 text-justify space-y-4" dangerouslySetInnerHTML={{__html: whatWeAreContent}}/>
-          </div>
-          <div className="md:w-1/2 mt-6 md:mt-0 self-center">
-            <img
-              className="w-full h-full rounded-[10px] shadow-xl mx-auto object-cover"
-              src={`/images/about/aboutus1.png`}
-              alt={'About Nexdecade'}
+        <AnimatedSection>
+          <section className="flex flex-col md:flex-row items-center justify-center pb-12">
+            <div className="md:w-1/2 pr-8">
+              <h3 className={`text-left heading1 mb-6`}>Who <span
+                  className="text-gradiant">Are we?</span></h3>
+              <div className="text-gray-800 text-justify space-y-4"
+                   dangerouslySetInnerHTML={{__html: whatWeAreContent}}/>
+            </div>
+            <div className="md:w-1/2 mt-6 md:mt-0 self-center">
+              <img
+                  className="w-full h-full rounded-[10px] shadow-xl mx-auto object-cover"
+                  src={`/images/about/about-us.png`}
+                  alt={'About Frontline'}
 
-              width={463}
-              height={463}
-            />
-          </div>
-        </section>
-
-        {/* Core Beliefs, Mission, Vision Section */}
-        {/* <section className="mb-8">
-                    <AnimatedSection>
-                        {aboutSection.map((section, index) => (
-                            <AnimatedSection key={index} index={index} variant={"fadeUpVariant"}>
-                                <div
-                                    className="grid grid-cols-1 md:grid-cols-2 gap-4 border-b border-black py-5"
-                                >
-                                    <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-[34px] font-medium leading-tight md:leading-snug xl:leading-[40px]">
-                                        {section.title}
-                                    </h3>
-                                    <div className="space-y-2">
-                                        <h4 className="text-base md:text-lg lg:text-xl xl:text-[18px] font-semibold xl:leading-[21px]">
-                                            {section.subtitle}
-                                        </h4>
-                                        <p className="text-sm md:text-base lg:text-lg xl:text-[18px] text-gray-800">
-                                            {section.description}
-                                        </p>
-                                    </div>
-                                </div>
-                            </AnimatedSection>
-                        ))}
-                    </AnimatedSection>
-                </section>*/}
-
-        {/* Team Profiles Section */}
-        <section className="mb-8">
-          <h3 className={`text-center heading1 mb-10`}>
-            Meet <span className="text-gradiant">Our Leaders</span>
-          </h3>
-
-          {/* Management Section */}
-          <h4 className="text-start heading2 py-6 text-gradiant italic w-full pr-2">Managements</h4>
-          <div
-            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 xl:gap-10 mt-10 mb-16">
-            {teamProfiles
-              .filter(profile => profile.category === "Management")
-              .map((profile, index) => (
-                <AnimatedSection key={index} index={index} variant={"fadeUpVariant"}>
-                  <div
-                    className="flex flex-col items-center text-center px-2 py-3 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out h-max"
-                  >
-                    <ProfileImage profile={profile}/>
-                    <div className="space-y-0.5 flex flex-col h-full">
-                      <h4 className="text-base md:text-lg lg:text-xl font-medium">{profile.name}</h4>
-                      {profile.position && (<h5 className="text-sm text-gradiant"><strong>{profile.position}</strong>
-                      </h5>)}
-                      {profile.designation && (
-                        <h5 className="text-sm ">{profile.designation}</h5>)}
-                      {profile.category !== "Management" && profile.workingExperience && (
-                        <h5 className="text-sm"><strong>
-                          {profile.workingExperience}+</strong> Years of experience
-                        </h5>)}
-                      {profile.category !== "Management" && profile.profileDescription && (
-                        <p className="text-sm text-justify pt-3 flex-grow">{profile.profileDescription}</p>
-                      )}
-
-                      {/*Profile Social Sections*/}
-                      {/*{profile.socialLinks && (
-                                            <div className="flex justify-center items-center pt-5 space-x-4">
-                                                {profile.socialLinks.linkedin && (
-                                                    <Link href={profile.socialLinks.linkedin} target="_blank"
-                                                          rel="noopener noreferrer"
-                                                          className=" text-[#0A142F] bg-gray-200 hover:bg-primary p-2 hover:text-white rounded-full border border-[#0A142F]/40 hover:border-transparent">
-                                                        <Linkedin strokeWidth={1} absoluteStrokeWidth size={16}/>
-                                                    </Link>
-                                                )}
-                                                {profile.socialLinks.facebook && (
-                                                    <Link href={profile.socialLinks.facebook} target="_blank"
-                                                          rel="noopener noreferrer"
-                                                          className=" text-[#0A142F] bg-gray-200 hover:bg-primary p-2 hover:text-white rounded-full border border-[#0A142F]/40 hover:border-transparent">
-                                                        <Facebook strokeWidth={1} absoluteStrokeWidth size={16}/>
-                                                    </Link>
-                                                )}
-                                                 Add more social icons if needed
-                                            </div>
-                                        )}*/}
-                    </div>
-                  </div>
-                </AnimatedSection>
-              ))}
-          </div>
-
-          {/* Team Leads Section */}
-          <h4 className="text-start heading2 py-6 text-gradiant italic w-full pr-2">Team Leads</h4>
-          <div
-            className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8 xl:gap-10 mt-10">
-            {teamProfiles
-              .filter(profile => profile.category === "Team Leads")
-              .map((profile, index) => (
-                <AnimatedSection key={index} index={index} variant={"fadeUpVariant"}>
-                  <div
-                    className="flex flex-col items-center text-center px-2 py-3 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 ease-in-out"
-                  >
-                    <ProfileImage profile={profile}/>
-                    <div className="space-y-0.5 flex flex-col h-full">
-                      <h4 className="text-base md:text-lg lg:text-xl font-medium">{profile.name}</h4>
-                      {profile.position && (<h5 className="text-sm "><strong>{profile.position}</strong>
-                      </h5>)}
-                      {profile.designation && (
-                        <h5 className="text-sm">{profile.designation}</h5>)}
-                      {profile.workingExperience && (<h5 className="text-sm"><strong>
-                        {profile.workingExperience}+</strong> Years of experience
-                      </h5>)}
-                      {/*{profile.profileDescription && (
-                                                <p className="text-sm text-justify pt-3 flex-grow px-3 line-clamp-3">{profile.profileDescription}</p>
-                                            )}*/}
-                      {/*Profile Social Sections*/}
-                      {/*{profile.socialLinks && (
-                                            <div className="flex justify-center items-center pt-5 space-x-4">
-                                                {profile.socialLinks.linkedin && (
-                                                    <Link href={profile.socialLinks.linkedin} target="_blank"
-                                                          rel="noopener noreferrer"
-                                                          className=" text-[#0A142F] bg-gray-200 hover:bg-primary p-2 hover:text-white rounded-full border border-[#0A142F]/40 hover:border-transparent">
-                                                        <Linkedin strokeWidth={1} absoluteStrokeWidth size={16}/>
-                                                    </Link>
-                                                )}
-                                                {profile.socialLinks.facebook && (
-                                                    <Link href={profile.socialLinks.facebook} target="_blank"
-                                                          rel="noopener noreferrer"
-                                                          className=" text-[#0A142F] bg-gray-200 hover:bg-primary p-2 hover:text-white rounded-full border border-[#0A142F]/40 hover:border-transparent">
-                                                        <Facebook strokeWidth={1} absoluteStrokeWidth size={16}/>
-                                                    </Link>
-                                                )}
-                                                 Add more social icons if needed
-                                            </div>
-                                        )}*/}
-                    </div>
-                  </div>
-                </AnimatedSection>
-              ))}
-          </div>
-        </section>
-
+                  width={463}
+                  height={463}
+              />
+            </div>
+          </section>
+        </AnimatedSection>
         {/* Team Overview Section */}
         <TeamOverview data={teamOverviewData}/>
+        {/* Core Beliefs, Mission, Vision Section */}
+        <section className="mb-8 mt-8">
+          <AnimatedSection>
+            {aboutSection.map((section, index) => (
+                <AnimatedSection key={index} index={index} variant={"fadeUpVariant"}>
+                  <div
+                      className="grid grid-cols-1 md:grid-cols-2 gap-4 border-b border-black py-5"
+                  >
+                    <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-[34px] font-medium leading-tight md:leading-snug xl:leading-[40px]">
+                      {section.title}
+                    </h3>
+                    <div className="space-y-2">
+                      <h4 className="text-base md:text-lg lg:text-xl xl:text-[18px] font-semibold xl:leading-[21px]">
+                        {section.subtitle}
+                      </h4>
+                      <p className="text-sm md:text-base lg:text-lg xl:text-[18px] text-gray-800">
+                        {section.description}
+                      </p>
+                    </div>
+                  </div>
+                </AnimatedSection>
+            ))}
+          </AnimatedSection>
+        </section>
+
+        <SubscribeSection title={'Get in Touch to Transform Your Campaigns'} item1={'Industry Leading Technology'}
+                          item2={'99% of Billboard Ads'} item3={'White Glove Service'}/>
       </div>
     </section>
   );

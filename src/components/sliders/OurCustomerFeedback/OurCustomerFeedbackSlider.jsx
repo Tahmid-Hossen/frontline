@@ -13,15 +13,15 @@ import Image from "next/image";
 import PulsatingButton from "@/components/magicui/pulsating-button";
 
 const feedbackData = [
-    { id: 1, name: 'Nature 1', imgUrl: '/images/clients-feedback/feedback-img.png' },
-    { id: 2, name: 'Nature 2', imgUrl: '/images/clients-feedback/feedback-img.png' },
-    { id: 3, name: 'Nature 3', imgUrl: '/images/clients-feedback/feedback-img.png' },
-    { id: 4, name: 'Nature 4', imgUrl: '/images/clients-feedback/feedback-img.png' },
-    { id: 5, name: 'Nature 5', imgUrl: '/images/clients-feedback/feedback-img.png' },
-    { id: 6, name: 'Nature 6', imgUrl: '/images/clients-feedback/feedback-img.png' },
-    { id: 7, name: 'Nature 7', imgUrl: '/images/clients-feedback/feedback-img.png' },
-    { id: 8, name: 'Nature 8', imgUrl: '/images/clients-feedback/feedback-img.png' },
-    { id: 9, name: 'Nature 9', imgUrl: '/images/clients-feedback/feedback-img.png' },
+    { id: 1, name: 'Nature 1', imgUrl: '/images/clients-feedback/feedback-default-placeholder.png' },
+    { id: 2, name: 'Nature 2', imgUrl: '/images/clients-feedback/feedback-default-placeholder.png' },
+    { id: 3, name: 'Nature 3', imgUrl: '/images/clients-feedback/feedback-default-placeholder.png' },
+    { id: 4, name: 'Nature 4', imgUrl: '/images/clients-feedback/feedback-default-placeholder.png' },
+    { id: 5, name: 'Nature 5', imgUrl: '/images/clients-feedback/feedback-default-placeholder.png' },
+    { id: 6, name: 'Nature 6', imgUrl: '/images/clients-feedback/feedback-default-placeholder.png' },
+    { id: 7, name: 'Nature 7', imgUrl: '/images/clients-feedback/feedback-default-placeholder.png' },
+    { id: 8, name: 'Nature 8', imgUrl: '/images/clients-feedback/feedback-default-placeholder.png' },
+    { id: 9, name: 'Nature 9', imgUrl: '/images/clients-feedback/feedback-default-placeholder.png' },
 ];
 
 const OurCustomerFeedbackSlider = ({
