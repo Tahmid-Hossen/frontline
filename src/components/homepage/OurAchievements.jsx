@@ -31,13 +31,19 @@ const achievements = [
 
 const OurAchievements = () => {
   return (
-    <section className="section achievements relative ppt-12 md:pt-24">
+    <section className="section achievements relative py-6 md:py-12">
       <div className="container">
         <div className="row justify-between text-center lg:text-start">
           <div className="partner text-center mx-auto space-y-4 text-dark">
             <div
-              className="heading1 text-center font-normal text-5xl">Our Valued Clients</div>
-            <p className="text-center description font-arial">Hear what our satisfied clients have to say about their Frontline experience.</p>
+              className="heading1 text-center">Our <span
+              className="text-gradiant">Achievements</span></div>
+            <p className="text-center description"><strong
+              className="text-primary">Nexdecade</strong> provides industry-standard technology solutions on a global
+              scale, aiding enterprises in navigating digital transformation through cutting-edge IT services and
+              technology solutions. Our unwavering commitment to top-notch quality has led to outstanding success for
+              our clients, resulting in numerous awards and recognitions from renowned organizations and platforms.
+              Explore our accolades and honors below.</p>
           </div>
         </div>
         <div className="mt-10 grid grid-cols-1 gap-7 md:grid-cols-3 xl:grid-cols-4 justify-center">
