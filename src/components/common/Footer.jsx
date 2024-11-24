@@ -24,7 +24,7 @@ const Footer = () => {
               </p>
               <div className="flex items-center justify-center md:justify-start space-x-4 mt-4">
                 <Link target={"_blank"} to="https://www.linkedin.com/company/nexdecade"
-                      className=" text-[#0A142F] hover:bg-primary p-3 hover:text-white rounded-full border border-[#0A142F]/40 hover:border-transparent hover:fill-white">
+                      className=" hover:text-[#0A142F] hover:bg-slate-300 p-3 text-white rounded-full border border-white/40 hover:border-transparent hover:fill-[#0A142F]">
                   {/*<Linkedin fill size={16} strokeWidth={0} />*/}
                   <svg
                     width="16"
@@ -45,8 +45,8 @@ const Footer = () => {
                     </defs>
                   </svg>
                 </Link>
-                <Link target={"_blank"} to="https://www.facebook.com/NexdecadeTechnology"
-                      className=" text-[#0A142F] hover:bg-primary p-3 hover:text-white rounded-full border border-[#0A142F]/40 hover:border-transparent hover:fill-white">
+                <Link target={"_blank"} to="https://www.facebook.com/"
+                      className=" hover:text-[#0A142F] hover:bg-slate-300 p-3 text-white rounded-full border border-white/40 hover:border-transparent hover:fill-[#0A142F]">
                   {/*<Facebook fill size={18} strokeWidth={0}/>*/}
                   <svg
                     width="16"
@@ -68,7 +68,7 @@ const Footer = () => {
                   </svg>
                 </Link>
                 <Link target={"_blank"} to="https://twitter.com/nexdecade"
-                      className=" text-[#0A142F] hover:bg-primary p-3 hover:text-white rounded-full border border-[#0A142F]/40 hover:border-transparent hover:fill-white">
+                      className=" hover:text-[#0A142F] hover:bg-slate-300 p-3 text-white rounded-full border border-white/40 hover:border-transparent hover:fill-[#0A142F]">
                   {/*<Twitter  size={16} />*/}
                   <svg
                     width="16"
@@ -98,64 +98,41 @@ const Footer = () => {
               <div className="flex-1 flex flex-col items-center justify-center self-start space-y-4">
                 <h3 className="font-semibold mb-1">Quick Links</h3>
                 <ul className="space-y-3 text-sm">
-                  <li><Link to="/faq" className="hover:text-primary">FAQ</Link></li>
-                  <li><Link to="/about-us" className="hover:text-primary">About Us</Link></li>
-                  <li><Link to="/life-at-a-glance/career" className="hover:text-primary">Career</Link></li>
-                  <li><Link to="/privacy-policy" className="hover:text-primary">Privacy Policy</Link></li>
-                  <li><Link to="/contact-us" className="hover:text-primary">Contact</Link></li>
+                  <li><Link to="/marketing" className="hover:text-primary">Marketing</Link></li>
+                  <li><Link to="/services" className="hover:text-primary">Services</Link></li>
+                  <li><Link to="/digital-marketing" className="hover:text-primary">Digital Marketing</Link></li>
+                  <li><Link to="/advertisement" className="hover:text-primary">Advertisement</Link></li>
                 </ul>
               </div>
-
-              {/* Location & Contact */}
-              <div className="text-[#0A142F] self-start  space-y-4">
-                <h3 className="font-semibold mb-1">Location & Contact</h3>
-                <div className="space-y-4">
-                  <p className="text-sm text-wrap">
-                    69/1 Chandrashila Suvastu<br/>Tower
-                    Panthapath Dhaka 1215.
-                  </p>
-                  <p className="text-sm flex items-center gap-2">
-                    <Mail size={12}/> info@nexdecade.com
-                  </p>
-                  <p className="text-sm flex items-center gap-2">
-                    <Phone size={12}/> Call For Support : +8801713189710
-                  </p>
-                  <p className="text-sm flex items-center gap-2">
-                    <Phone size={12}/> Call For Sales : +8801711204695
-                  </p>
-                </div>
+              {/* Connect Links */}
+              <div className="flex-1 flex flex-col items-center justify-center self-start space-y-4">
+                <h3 className="font-semibold mb-1">Connect with us</h3>
+                <ul className="space-y-3 text-sm">
+                  <li><Link to="/contact-us" className="hover:text-primary">Connect Us</Link></li>
+                  <li><Link to="/life-at-a-glance/career" className="hover:text-primary">Work with Us</Link></li>
+                  <li><Link to="/faq" className="hover:text-primary">Help</Link></li>
+                </ul>
               </div>
             </div>
             {/* Quick Links */}
             <div className="flex-1 hidden md:flex flex-col items-center justify-center self-start space-y-4">
               <h3 className="font-semibold mb-1">Quick Links</h3>
-              <ul className="space-y-3 text-sm font-medium">
-                <li><Link to="/faq" className="hover:text-primary">FAQ</Link></li>
-                <li><Link to="/about-us" className="hover:text-primary">About Us</Link></li>
-                <li><Link to="/life-at-a-glance/career" className="hover:text-primary">Career</Link></li>
-                <li><Link to="/privacy-policy" className="hover:text-primary">Privacy Policy</Link></li>
-                <li><Link to="/contact-us" className="hover:text-primary">Contact</Link></li>
+              <ul className="space-y-3 text-sm">
+                <li><Link to="/marketing" className="hover:text-primary">Marketing</Link></li>
+                <li><Link to="/services" className="hover:text-primary">Services</Link></li>
+                <li><Link to="/digital-marketing" className="hover:text-primary">Digital Marketing</Link></li>
+                <li><Link to="/advertisement" className="hover:text-primary">Advertisement</Link></li>
               </ul>
             </div>
 
             {/* Location & Contact */}
-            <div className="flex-1 hidden md:block text-[#0A142F] self-start space-y-4">
-              <h3 className="font-semibold mb-1">Location & Contact</h3>
-              <div className="space-y-4">
-                <p className="text-sm">
-                  69/1 Chandrashila Suvastu Tower<br/>
-                  Panthapath Dhaka 1215.
-                </p>
-                <p className="text-sm flex items-center gap-2">
-                  <Mail size={12}/> info@nexdecade.com
-                </p>
-                <p className="text-sm flex items-center gap-2">
-                  <Phone size={12}/> Call For Support : +8801713189710
-                </p>
-                <p className="text-sm flex items-center gap-2">
-                  <Phone size={12}/> Call For Sales : +8801711204695
-                </p>
-              </div>
+            <div className="flex-1 hidden md:block text-white self-start space-y-4">
+              <h3 className="font-semibold mb-1">Connect with us</h3>
+              <ul className="space-y-3 text-sm">
+                <li><Link to="/contact-us" className="hover:text-primary">Connect Us</Link></li>
+                <li><Link to="/life-at-a-glance/career" className="hover:text-primary">Work with Us</Link></li>
+                <li><Link to="/faq" className="hover:text-primary">Help</Link></li>
+              </ul>
             </div>
             {/* Map (Optional, example static image or embedded map) */}
             <div className="flex-1 mx-auto md:mx-0">
@@ -166,9 +143,9 @@ const Footer = () => {
           {/* Certifications & Copyright */}
           <div className="mt-8 border-t py-3">
             <ul className="text-sm flex justify-center items-center gap-4">
-              <li><Link to="/faq" className="hover:text-primary">Privacy & Policies</Link></li>
-              <li><Link to="/about-us" className="hover:text-primary">Terms and Conditions</Link></li>
-              <li><Link to="/life-at-a-glance/career" className="hover:text-primary">Code of Conduct</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-primary">Privacy & Policies</Link></li>
+              <li><Link to="/terms" className="hover:text-primary">Terms and Conditions</Link></li>
+              <li><Link to="/code-of-conduct" className="hover:text-primary">Code of Conduct</Link></li>
             </ul>
           </div>
         </div>

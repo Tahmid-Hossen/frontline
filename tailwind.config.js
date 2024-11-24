@@ -10,6 +10,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        arial: ['var(--font-arial)'],
         roboto: ['var(--font-roboto)'],
         poppins: ['var(--font-poppins)']
       },
@@ -17,7 +18,11 @@ module.exports = {
         custom: '0px 0px 37px 0px #0170FF80',
         custom2: '0px 4px 20px 0px #00000033'
       },
+      backgroundColor: {
+        primary: '#46266A',
+      },
       colors: {
+        'main': '#46266A',
         'custom-blue': '#0170FF80',
         'custom-pink': '#FFD4EE',
         'custom-green': '#D3FEE8',
