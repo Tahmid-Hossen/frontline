@@ -1,9 +1,12 @@
 import {motion} from "framer-motion";
 import OurSolutions from "@/components/homepage/OurSolutions";
-import OurAchievements from "@/components/homepage/OurAchievements";
-import OurValuedClients from "@/components/homepage/OurValuedClients";
 import Banner from "@/components/homepage/Banner";
 import {useInView} from "@/hooks/useInView";
+import AboutUs from "@/components/homepage/AboutUs.jsx";
+import ValuableClients from "@/components/homepage/ValuableClients.jsx";
+import OurBlogs from "@/components/homepage/OurBlogs.jsx";
+import AddSections from "@/components/homepage/AddSections.jsx";
+import GetinTouch from "@/components/homepage/GetinTouch.jsx";
 
 const fadeUpVariant = {
   hidden: {opacity: 0, y: 20},
@@ -14,8 +17,6 @@ export default function Home() {
   const [solutionsRef, isSolutionsVisible] = useInView({threshold: 0.2});
   const [partneringRef, isPartneringVisible] = useInView({threshold: 0.2});
   const [achievementsRef, isAchievementsVisible] = useInView({threshold: 0.2});
-  const [clientsRef, isClientsVisible] = useInView({threshold: 0.2});
-  const [feedbackRef, isFeedbackVisible] = useInView({threshold: 0.2});
 
   return (
     <>
@@ -28,16 +29,52 @@ export default function Home() {
       >
         <OurSolutions/>
       </motion.div>
-
-      {/*<motion.div
-                ref={partneringRef}
-                variants={fadeUpVariant}
-                initial="hidden"
-                animate={isPartneringVisible ? "visible" : "hidden"}
-            >
-                <PartneringAcrossIndustries />
-            </motion.div>*/}
-
+      
+      <motion.div
+        ref={partneringRef}
+        variants={fadeUpVariant}
+        initial="hidden"
+        animate={isPartneringVisible ? "visible" : "hidden"}
+      >
+        <AboutUs/>
+      </motion.div>
+      
+      <motion.div
+        ref={achievementsRef}
+        variants={fadeUpVariant}
+        initial="hidden"
+        animate={isAchievementsVisible ? "visible" : "hidden"}
+      >
+        <ValuableClients/>
+      </motion.div>
+      
+      <motion.div
+        ref={solutionsRef}
+        variants={fadeUpVariant}
+        initial="hidden"
+        animate={isSolutionsVisible ? "visible" : "hidden"}
+      >
+        <AddSections/>
+      </motion.div>
+      
+      <motion.div
+        ref={solutionsRef}
+        variants={fadeUpVariant}
+        initial="hidden"
+        animate={isSolutionsVisible ? "visible" : "hidden"}
+      >
+        <OurBlogs/>
+      </motion.div>
+      
+      <motion.div
+        ref={solutionsRef}
+        variants={fadeUpVariant}
+        initial="hidden"
+        animate={isSolutionsVisible ? "visible" : "hidden"}
+      >
+        <GetinTouch/>
+      </motion.div>
+      
       {/*<motion.div*/}
       {/*  ref={achievementsRef}*/}
       {/*  variants={fadeUpVariant}*/}
@@ -46,7 +83,8 @@ export default function Home() {
       {/*>*/}
       {/*  <OurAchievements/>*/}
       {/*</motion.div>*/}
-
+      
+      
       {/*<motion.div*/}
       {/*  ref={clientsRef}*/}
       {/*  variants={fadeUpVariant}*/}
@@ -55,7 +93,7 @@ export default function Home() {
       {/*>*/}
       {/*  <OurValuedClients/>*/}
       {/*</motion.div>*/}
-
+      
       {/*<motion.div
                 ref={feedbackRef}
                 variants={fadeUpVariant}

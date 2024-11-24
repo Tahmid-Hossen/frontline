@@ -4,6 +4,7 @@ import 'swiper/css/navigation';
 import {Navigation} from 'swiper/modules';
 import {Swiper, SwiperSlide} from 'swiper/react';
 import {MoveLeft, MoveRight} from 'lucide-react';
+
 // eslint-disable-next-line react/prop-types
 const CommonSlider = ({data}) => {
   return (
