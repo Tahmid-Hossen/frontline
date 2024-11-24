@@ -4,7 +4,7 @@ import {Helmet} from 'react-helmet-async';
 import AboutUs from '@/pages/about-us.jsx';
 import ContactUs from '@/pages/contact-us.jsx';
 import FAQ from '@/components/common/FAQ.jsx';
-import Portfolio from '@/pages/portfolio.jsx';
+import Portfolio from '@/pages/our-works.jsx';
 import Search from '@/pages/search.jsx';
 import Services from '@/pages/services.jsx';
 import ServiceCategory from '@/pages/service-category.jsx';
@@ -16,6 +16,7 @@ import Home from '@/pages/home.jsx';
 import NotFound from "@/components/NotFound.jsx";
 import SinglePortfolio from "@/pages/single-portfolio.jsx";
 import PrivacyPolicy from "@/pages/PrivacyPolicy.jsx";
+import OurWorks from "@/pages/our-works.jsx";
 
 const RoutesConfig = () => (
   <Routes>
@@ -81,6 +82,28 @@ const RoutesConfig = () => (
         </>
       }
     />
+      <Route
+          path="/our-works"
+          element={
+              <>
+                  <Helmet>
+                      <title>Our Works - Nexdecade Technology Private Ltd.</title>
+                  </Helmet>
+                  <OurWorks/>
+              </>
+          }
+      />
+      <Route
+          path="/our-works/:portfolioId"
+          element={
+              <>
+                  <Helmet>
+                      <title>Our Work - Nexdecade Technology Private Ltd.</title>
+                  </Helmet>
+                  <SinglePortfolio/>
+              </>
+          }
+      />
     <Route
       path="/services"
       element={
