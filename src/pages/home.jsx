@@ -4,6 +4,7 @@ import OurAchievements from "@/components/homepage/OurAchievements";
 import OurValuedClients from "@/components/homepage/OurValuedClients";
 import Banner from "@/components/homepage/Banner";
 import {useInView} from "@/hooks/useInView";
+import AboutUs from "@/components/homepage/AboutUs.jsx";
 
 const fadeUpVariant = {
   hidden: {opacity: 0, y: 20},
@@ -29,23 +30,23 @@ export default function Home() {
         <OurSolutions/>
       </motion.div>
 
-      {/*<motion.div
+      <motion.div
                 ref={partneringRef}
                 variants={fadeUpVariant}
                 initial="hidden"
                 animate={isPartneringVisible ? "visible" : "hidden"}
             >
-                <PartneringAcrossIndustries />
-            </motion.div>*/}
+                <AboutUs />
+            </motion.div>
 
-      {/*<motion.div*/}
-      {/*  ref={achievementsRef}*/}
-      {/*  variants={fadeUpVariant}*/}
-      {/*  initial="hidden"*/}
-      {/*  animate={isAchievementsVisible ? "visible" : "hidden"}*/}
-      {/*>*/}
-      {/*  <OurAchievements/>*/}
-      {/*</motion.div>*/}
+      <motion.div
+        ref={achievementsRef}
+        variants={fadeUpVariant}
+        initial="hidden"
+        animate={isAchievementsVisible ? "visible" : "hidden"}
+      >
+        <OurAchievements/>
+      </motion.div>
 
       {/*<motion.div*/}
       {/*  ref={clientsRef}*/}
