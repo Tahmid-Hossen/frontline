@@ -18,7 +18,7 @@ const Banner = () => {
                   risus ipsum varius mauris blandit enim. Diam et.
                 </p>
                   <Link to="/contact-us"
-                        className="inline-flex items-center justify-center h-[40px] btn bg-[#46266A] text-white border rounded-full btn-sm my-5">
+                        className="inline-flex items-center justify-center h-[40px] btn bg-[#46266A] text-white border rounded-full btn-sm mt-5">
                     Contact Us
                   </Link>
               </div>

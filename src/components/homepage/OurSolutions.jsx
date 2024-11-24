@@ -69,18 +69,7 @@ const OurSolutions = () => {
         <div className="container">
           <div className="row justify-between text-center lg:text-start">
             <div className="solution text-center mx-auto space-y-4 text-dark">
-              <motion.div
-                variants={getVariant('fadeUpVariant')}
-                initial="hidden"
-                animate="visible"
-                transition={{
-                  delay: 0.2, // Delay each item for a staggered effect
-                  duration: 0.5,
-                  ease: "easeOut",
-                }}
-                className="heading1 text-center">Our <span
-                className="text-gradiant">Solutions</span></motion.div>
-              <p className="text-center description"></p>
+              <h2 className="heading1 text-left text-[48px] font-bold font-">Our Services</h2>
             </div>
           </div>
           <div className="key-feature-grid mt-10 grid grid-cols-1 gap-7 md:grid-cols-3 xl:grid-cols-4">

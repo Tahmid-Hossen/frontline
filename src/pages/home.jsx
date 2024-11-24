@@ -20,14 +20,14 @@ export default function Home() {
   return (
     <>
       <Banner/>
-      {/*<motion.div*/}
-      {/*  ref={solutionsRef}*/}
-      {/*  variants={fadeUpVariant}*/}
-      {/*  initial="hidden"*/}
-      {/*  animate={isSolutionsVisible ? "visible" : "hidden"}*/}
-      {/*>*/}
-      {/*  <OurSolutions/>*/}
-      {/*</motion.div>*/}
+      <motion.div
+        ref={solutionsRef}
+        variants={fadeUpVariant}
+        initial="hidden"
+        animate={isSolutionsVisible ? "visible" : "hidden"}
+      >
+        <OurSolutions/>
+      </motion.div>
 
       {/*<motion.div
                 ref={partneringRef}
