@@ -139,7 +139,7 @@ const SubService = ({category, service, subService}) => {
 
   return (
     <section className="bg-white">
-      <BannerSection title={'Outdoor Branding'} backgroundImage={'/images/banner/our-work-banner.png'}/>
+      <BannerSection title={capitalizedCategoryName} backgroundImage={'/images/banner/our-work-banner.png'}/>
       <RenderBasedOnSubService data={data} subService={subService} service={service}/>
     </section>
   );

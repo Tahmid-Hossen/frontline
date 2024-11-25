@@ -13,10 +13,8 @@ const SubServiceBanner = ({cards}) => {
                     <div className="container ">
                         <h2
                             className="text-center text-[20px] sm:text-[24px] md:text-[30px] lg:text-[35px] xl:text-[40px] leading-[26px] sm:leading-[30px] md:leading-[36px] lg:leading-[40px] xl:leading-[46px] font-bold">
-                            {cards?.title ?? ''} <p className={"text-gradiant"}>{cards?.sub_title ?? ''}</p>
+                            {cards?.title_header ?? ''} <p className={"text-gradiant"}>{cards?.sub_title ?? ''}</p>
                         </h2>
-                    </div>
-                    <div className="container">
                         <CardsComponent data={cards}  imageWidth={84} imageHeight={84}
                                         imageStyle={" bg-transparent object-fit"}
                                         titleStyle={"text-center"} descriptionStyle={"text-center text-base mt-6"}/>

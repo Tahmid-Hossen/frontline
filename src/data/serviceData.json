@@ -5,7 +5,7 @@
     "title": "Digital Marketing",
     "description": "Digital Marketing",
     "image": "software-design.png",
-    "link": "/services/software-design",
+    "link": "/services/digital-marketing",
     "subComponents": [
       {
         "name": "Desktop Software",
@@ -507,7 +507,7 @@
     "title": "Media Buying",
     "description": "Deliver media content directly to viewers over the internet without traditional cable or satellite TV. Nexdecade's OTT solutions provide a flexible platform for streaming services, ensuring a high-quality viewing experience across multiple devices.",
     "image": "ott.png",
-    "link": "/services/ott",
+    "link": "/services/media-buying",
     "subComponents": [
       {
         "name": "Streaming Platforms",
@@ -694,7 +694,7 @@
     "title": "Influencer Marketing",
     "description": "Real-time tracking solutions that provide insights into vehicle locations, speed, and routes. Our system enhances fleet management by offering precise data and reporting, improving operational efficiency and reducing costs.",
     "image": "vehicle-tracking.png",
-    "link": "/services/vehicle-tracking-system",
+    "link": "/services/influencer-marketing",
     "subComponents": [
       {
         "name": "IOS",
@@ -711,12 +711,12 @@
     ],
     "subService": {
       "id": 4,
-      "slug": "vehicle-tracking-system",
-      "title": "Vehicle Tracking System",
+      "slug": "influencer-marketing",
+      "title": "Influencer Marketing",
       "overview": {
-        "title": "Overview",
-        "description": "A vehicle tracking system design involves developing a robust infrastructure to monitor and manage the movement of vehicles in real-time. It includes components like GPS receivers, communication interfaces, databases for storing location data, and user interfaces for visualization and control. The design aims to ensure accuracy, reliability, and efficiency in tracking vehicle locations, enabling functionalities such as route optimization, fleet management, and theft prevention.",
-        "image": "/images/services/sub-services/overview/overview.png",
+        "title": "",
+        "description": "Lorem ipsum dolor sit amet consectetur. Malesuada magna fames sagittis id ut. Ipsum mattis ultricies vestibulum tincidunt scelerisque. Sed cursus dignissim a dictum. Suspendisse hendrerit commodo interdum diam porttitor netus quis in et. Praesent in sagittis tristique ut justo et ac ridiculus id. Arcu quis sed porttitor ac eget pellentesque risus et. Blandit purus id rutrum in lorem morbi maecenas aliquam laoreet. Facilisis sagittis eu faucibus pellentesque. Ultrices quam facilisi in vitae ut lorem. Tellus id eget quam diam volutpat dignissim cursus mi.\nUltrices velit arcu quisque nisi pulvinar cras. Habitant ut orci at nisi mauris imperdiet fringilla eget in. Est tempus sit vel ipsum sollicitudin. Dignissim amet nunc malesuada eget iaculis enim. Cursus neque volutpat maecenas metus amet varius nulla.\nSed eget amet quis nunc sem. Eu laoreet vitae interdum fermentum id at sagittis. Condimentum tempor commodo elit commodo eros tellus sed id. Feugiat amet id metus turpis. Venenatis in.",
+        "image": "/images/services/sub-services/overview/team-overview-2.png",
         "link": "#"
       },
       "approved_by": {
