@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "slug": "digital marketing",
+    "slug": "digital-marketing",
     "title": "Digital Marketing",
     "description": "Digital Marketing",
     "image": "software-design.png",
@@ -271,7 +271,7 @@
     "title": "Outdoor Branding",
     "description": "Innovative hardware solutions that integrate seamlessly with software applications. Our hardware design services include creating efficient, robust, and cost-effective designs for various industries, enhancing functionality and usability.",
     "image": "hardware-design.png",
-    "link": "/services/hardware-design",
+    "link": "/services/outdoor-branding",
     "subComponents": [
       {
         "name": "Desktop Software",
@@ -300,12 +300,12 @@
     ],
     "subService": {
       "id": 2,
-      "slug": "hardware-design",
-      "title": "Hardware Design",
+      "slug": "outdoor-branding",
+      "title": "Outdoor Branding",
       "overview": {
-        "title": "Overview",
-        "description": "Nexdecade excels in designing complex PCB boards including analog, RF, high-speed digital, mixed signal, and high power variants, ensuring high success rates on initial attempts. With over two decades of experience and robust partnerships, our hardware design capabilities and lab facilities support comprehensive spec-to-product engineering services.\nWe meticulously analyze all PCB designs for timing, signal integrity, power management, and heat dissipation to guarantee optimal performance. Our services encompass board design from specifications through prototype development, board bring-up, and seamless integration into final products. We specialize in FPGA board designs for performance evaluation, offer redesigns to replace obsolete components, and provide firmware development including diagnostics, boot code, BSPs, and device drivers for diverse interfaces, aiming for enhanced functionality and efficiency.",
-        "image": "/images/services/sub-services/overview/overview_hardware-design.png"
+        "title": "",
+        "description": "Lorem ipsum dolor sit amet consectetur. Malesuada magna fames sagittis id ut. Ipsum mattis ultricies vestibulum tincidunt scelerisque. Sed cursus dignissim a dictum. Suspendisse hendrerit commodo interdum diam porttitor netus quis in et. Praesent in sagittis tristique ut justo et ac ridiculus id. Arcu quis sed porttitor ac eget pellentesque risus et. Blandit purus id rutrum in lorem morbi maecenas aliquam laoreet. Facilisis sagittis eu faucibus pellentesque. Ultrices quam facilisi in vitae ut lorem. Tellus id eget quam diam volutpat dignissim cursus mi.\nUltrices velit arcu quisque nisi pulvinar cras. Habitant ut orci at nisi mauris imperdiet fringilla eget in. Est tempus sit vel ipsum sollicitudin. Dignissim amet nunc malesuada eget iaculis enim. Cursus neque volutpat maecenas metus amet varius nulla.\nSed eget amet quis nunc sem. Eu laoreet vitae interdum fermentum id at sagittis. Condimentum tempor commodo elit commodo eros tellus sed id. Feugiat amet id metus turpis. Venenatis in.",
+        "image": "/images/services/sub-services/overview/overview-outdoor-branding.png"
       },
       "development_services": {
         "title": "Hardware",

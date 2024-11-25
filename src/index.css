@@ -299,6 +299,10 @@ body {
     .heading2 {
         @apply text-[36px] md:text-[40px] lg:text-[44px] xl:text-[48px] font-semibold leading-[42px] md:leading-[48px] lg:leading-[52px] xl:leading-[56.25px] text-left
     }
+    .heading3 {
+        @apply text-[20px] md:text-[30px] lg:text-[36px] xl:text-[44px] font-semibold leading-[32px] md:leading-[42px] lg:leading-[46px] xl:leading-[50px] text-left
+    }
+
     .heading4{
         @apply text-[16px] md:text-[24px] lg:text-[24px] xl:text-[28px] font-semibold leading-[22px] md:leading-[28px] lg:leading-[22px] xl:leading-[36.25px] text-left
     }

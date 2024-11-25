@@ -14,7 +14,8 @@ const CardsComponent = ({
                             shadow,
                             data,
                             colNumber,
-                            gridBaseCol
+                            gridBaseCol,
+                            descriptionStyle
                         }) => {
     return (
         <div className={`pt-6 md:pt-8 lg:pt-10 flex flex-col items-center justify-center gap-7 ${componentsBackground ?? ''}`}>
@@ -33,9 +34,9 @@ const CardsComponent = ({
             {/* Cards Grid */}
             <div
                 className={cn(`grid  ${gridBaseCol === 2 ? 'grid-cols-2'  :'grid-cols-1'} ${colNumber === 6 ? 'md:grid-cols-4 lg:grid-cols-6' : (colNumber === 5 ? 'md:grid-cols-2 lg:grid-cols-5' : (colNumber === 3 ? 'md:grid-cols-2 lg:grid-cols-3' : (colNumber === 3.5 ? '!grid-cols-4 lg:grid-cols-4': 'md:grid-cols-3 lg:grid-cols-4')))} gap-8 justify-center mx-auto`)}>
-                {data?.cards_list?.map((item) => (
+                {data?.cards_list?.map((item,index) => (
                     <div
-                        key={item.id}
+                        key={index}
                         className={`${minWidth} ${minHeight} ${padding} ${border} ${shadow} rounded-lg flex flex-col justify-center items-center gap-4 text-center`}>
                         {/* Image */}
                         <ImageComponent
@@ -49,7 +50,7 @@ const CardsComponent = ({
                         {/* Title and Description */}
                         <div>
                             <h4 className={titleStyle || "text-base leading-8"}>{item.title || ""}</h4>
-                            <p className="text-base leading-8 text-justify">{item.description || ""}</p>
+                            <p className={`${descriptionStyle ?? ' text-base leading-8 text-justify'}`}>{item.description || ""}</p>
                         </div>
                     </div>
                 ))}

@@ -29,7 +29,7 @@ const SubscribeSection = ({title,item1, item2,item3}) => {
                         />
                         <button
                             className="px-6 py-2 bg-main text-white font-medium rounded-md hover:bg-main transition">
-                            Learn More
+                            Subscribe
                         </button>
                     </div>
                 </div>

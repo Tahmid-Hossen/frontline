@@ -10,6 +10,7 @@ export default function NumberTicker({
   direction = "up",
   delay = 0,
   className,
+  extra='',
   isYear = false
 }) {
   const ref = useRef(null);
@@ -29,9 +30,15 @@ export default function NumberTicker({
 
   useEffect(() =>
     springValue.on("change", (latest,year) => {
-      if (ref.current) {
-        ref.current.textContent = isYear ? Number(latest.toFixed(0)).toString() : Intl.NumberFormat("en-US").format(Number(latest.toFixed(0)));
+      /*if (ref.current) {
+        ref.current.textContent = (isYear ? Number(latest.toFixed(0)).toString() : Intl.NumberFormat("en-US").format(Number(latest.toFixed(0)))) extra ?? '';
         // Intl.NumberFormat("en-US").format(Number(latest.toFixed(0)));
+      }*/
+      if (ref.current) {
+        const formattedValue = isYear
+            ? Number(latest.toFixed(0)).toString()
+            : Intl.NumberFormat("en-US").format(Number(latest.toFixed(0)));
+        ref.current.textContent = `${formattedValue}${extra ?? ''}`;
       }
     }), [springValue,isYear]);
 

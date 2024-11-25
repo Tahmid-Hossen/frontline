@@ -1,10 +1,12 @@
+import {useState} from "react";
 import BreadCrumb from "@/components/breadcrumb/BreadCrumb";
 import ProfileImage from "@/components/common/ProfileImage";
 import TeamOverview from "@/components/services/subservices/TeamOverview";
 import AnimatedSection from "@/components/common/AnimatedSection";
 import BannerSection from "@/components/BannerSection/BannerSection.jsx";
 import SubscribeSection from "@/components/SubscribeSection/SubscribeSection.jsx";
-
+import OurWorksData from "@/data/OurWorksData.json";
+import {Tabs, TabsContent, TabsList, TabsTrigger} from "@/components/ui/tabs";
 const teamProfiles = [
   {
     name: "Md. Azizul Hoque",
@@ -224,86 +226,152 @@ const whatWeAreContent = `
     We are leading the industry, bringing intelligence to out of home by deploying digital at scale and embracing new technologies.
   </p>
 `;
-const sectionData = {
-  mission: "Our mission is to revolutionize the advertising industry by combining innovation and cutting-edge technology.",
-  vision: "Our vision is to empower brands to connect with audiences in meaningful and impactful ways.",
-  goals: [
-    {
-      title: "Transforming the OOH Advertising Industry",
-      description: "We take pride in offering hassle-free and highly effective on-vehicle outdoor advertising solutions for brands. Our mission is to simplify the advertising process while maximizing visibility and impact."
-    },
-    {
-      title: "Create Opportunities",
-      description: "By partnering with us, billboard owners can turn their assets into revenue-generating tools. We ensure a stress-free experience for advertisers and property owners alike."
-    },
-    {
-      title: "Merging Technology with OOH Advertising",
-      description: "Our data-driven platform empowers brands with precise control over their outdoor campaigns through advanced technology."
-    },
-    {
-      title: "Create a Better Digital Bangladesh",
-      description: "We are committed to developing an innovative advertising platform that transforms outdoor advertising in Bangladesh through technology."
-    }
-  ]
-};
+const goalsData = [
+  {
+    title: "TRANSFORMING THE OOH ADVERTISING INDUSTRY",
+    description:
+        "We take pride in offering hassle-free and highly effective on-vehicle outdoor advertising solutions for brands across Bangladesh. Our mission is to simplify the advertising process while maximizing visibility and impact, ensuring that your brand reaches its target audience in a dynamic and engaging way.",
+  },
+  {
+    title: "CREATE OPPORTUNITIES",
+    description:
+        "By partnering with us, billboard owners can effortlessly turn their billboards into income-generating assets, all while maintaining their daily routines. With no hidden hassles and complete transparency, Frontline ensures that owners enjoy a stress-free experience as they earn extra revenue through innovative and impactful outdoor advertising campaigns.",
+  },
+  {
+    title: "MERGING TECHNOLOGY WITH OOH ADVERTISING",
+    description:
+        "Our data-driven advertising platform, powered by an advanced impression count algorithm, empowers brands with precise control over their outdoor campaigns through the integration of cutting-edge technology.",
+  },
+  {
+    title: "CREATE A BETTER DIGITAL BANGLADESH",
+    description:
+        "We are committed to developing an innovative and transformative on-vehicle advertising platform that revolutionizes the Out-of-Home (OOH) advertising industry in Bangladesh. By integrating cutting-edge technology and data-driven solutions, our platform is designed to provide unmatched opportunities for brands to engage with their audiences in dynamic and impactful ways.",
+  },
+];
 const AboutUs = () => {
 
   return (
-    <section className="bg-white mb-16">
-      <BannerSection title={'Get to Know US'} backgroundImage={'/images/banner/our-work-banner.png'}/>
-      <div className="container mx-auto px-4 py-8">
-        {/* Who Are We Section */}
-        <AnimatedSection>
-          <section className="flex flex-col md:flex-row items-center justify-center pb-12">
-            <div className="md:w-1/2 pr-8">
-              <h3 className={`text-left heading1 mb-6`}>Who <span
-                  className="text-gradiant">Are we?</span></h3>
-              <div className="text-gray-800 text-justify space-y-4"
-                   dangerouslySetInnerHTML={{__html: whatWeAreContent}}/>
-            </div>
-            <div className="md:w-1/2 mt-6 md:mt-0 self-center">
-              <img
-                  className="w-full h-full rounded-[10px] shadow-xl mx-auto object-cover"
-                  src={`/images/about/about-us.png`}
-                  alt={'About Frontline'}
+      <section className="bg-white mb-16">
+        <BannerSection title={'Get to Know US'} backgroundImage={'/images/banner/our-work-banner.png'}/>
+        <div className="container mx-auto px-4 py-8">
+          {/* Who Are We Section */}
+          <AnimatedSection>
+            <section className="flex flex-col md:flex-row items-center justify-center pb-12">
+              <div className="md:w-1/2 pr-8">
+                <h3 className={`text-left heading1 mb-6`}>Who <span
+                    className="text-gradiant">Are we?</span></h3>
+                <div className="text-gray-800 text-justify space-y-4"
+                     dangerouslySetInnerHTML={{__html: whatWeAreContent}}/>
+              </div>
+              <div className="md:w-1/2 mt-6 md:mt-0 self-center">
+                <img
+                    className="w-full h-full rounded-[10px] shadow-xl mx-auto object-cover"
+                    src={`/images/about/about-us.png`}
+                    alt={'About Frontline'}
 
-                  width={463}
-                  height={463}
+                    width={463}
+                    height={463}
+                />
+              </div>
+            </section>
+          </AnimatedSection>
+          {/* Team Overview Section */}
+          <TeamOverview data={teamOverviewData}
+                        headerStyle={"text-xl font-bold leading-none text-left underline-offset-2 decoration-slice md:text-3xl md:leading-tight"}/>
+          {/* Mission, Vision Section */}
+          <section className="mb-8 mt-8">
+            <AnimatedSection>
+              <Tabs defaultValue="mission" className="grid grid-cols-1 md:grid-cols-[200px_1fr] gap-6 p-6">
+                <div className="rounded-lg border dark:border-gray-800 p-3">
+                  <TabsList className={"flex flex-row md:flex-col gap-4 items-center justify-center bg-transparent"}>
+                    <TabsTrigger
+                        className={"text-xl font-medium px-5 py-2 w-full text-black data-[state=active]:!text-white data-[state=active]:bg-gradient-default data-[state=active]:text-foreground data-[state=active]:shadow-sm"}
+                        value="mission">Mission</TabsTrigger>
+                    <TabsTrigger
+                        className={"text-xl font-medium px-5 py-2 w-full text-black data-[state=active]:!text-white data-[state=active]:bg-gradient-default data-[state=active]:text-foreground data-[state=active]:shadow-sm"}
+                        value="vision">Vision</TabsTrigger>
+                  </TabsList>
+                </div>
+                <div
+                    className="rounded-lg border bg-white p-6 shadow-sm dark:border-gray-800 dark:bg-gray-950 text-left">
+                  <TabsContent value="mission">Our mission is to revolutionize the advertising industry by combining
+                    innovation and cutting-edge technology. <br/><br/>
+                    Lorem ipsum dolor sit amet consectetur. Malesuada consectetur a amet hendrerit quisque eget. Metus
+                    in
+                    nisl netus risus. Elementum ante vel sollicitudin donec cursus gravida amet gravida diam. Accumsan
+                    at
+                    lorem ornare nec pulvinar. Ullamcorper at ut dui bibendum ultrices risus mauris augue. Parturient id
+                    augue eu dictum enim. Iaculis senectus nulla nam ut pharetra tempor nec. Pharetra fames tellus leo
+                    sagittis volutpat nunc tellus vel viverra. Vestibulum nec duis duis tellus turpis senectus
+                    dignissim.
+                    Sagittis facilisi iaculis tristique et sit. Placerat sed nullam fermentum feugiat arcu. Felis nibh
+                    urna felis feugiat dignissim.<br/>
+                    Ornare suspendisse et ridiculus dictumst cursus at sit elit. Adipiscing vitae diam non posuere vitae
+                    feugiat habitant. Amet at adipiscing sed aliquet amet quis malesuada sed et. Urna et amet at non
+                    amet.
+                    Facilisis faucibus tellus magna nibh suscipit. Praesent sed pharetra nam quis enim. Accumsan neque
+                    in
+                    dignissim nibh. Ultrices amet ac risus sed lectus consequat vel consequat blandit. Nisi porttitor
+                    pellentesque sit orci mauris.</TabsContent>
+                  <TabsContent value="vision">Our vision is to empower brands to connect with audiences in meaningful
+                    and
+                    impactful ways.<br/><br/>
+                    Lorem ipsum dolor sit amet consectetur. Malesuada consectetur a amet hendrerit quisque eget. Metus
+                    in
+                    nisl netus risus. Elementum ante vel sollicitudin donec cursus gravida amet gravida diam. Accumsan
+                    at
+                    lorem ornare nec pulvinar. Ullamcorper at ut dui bibendum ultrices risus mauris augue. Parturient id
+                    augue eu dictum enim. Iaculis senectus nulla nam ut pharetra tempor nec. Pharetra fames tellus leo
+                    sagittis volutpat nunc tellus vel viverra. Vestibulum nec duis duis tellus turpis senectus
+                    dignissim.
+                    Sagittis facilisi iaculis tristique et sit. Placerat sed nullam fermentum feugiat arcu. Felis nibh
+                    urna felis feugiat dignissim.<br/>
+                    Ornare suspendisse et ridiculus dictumst cursus at sit elit. Adipiscing vitae diam non posuere vitae
+                    feugiat habitant. Amet at adipiscing sed aliquet amet quis malesuada sed et. Urna et amet at non
+                    amet.
+                    Facilisis faucibus tellus magna nibh suscipit. Praesent sed pharetra nam quis enim. Accumsan neque
+                    in
+                    dignissim nibh. Ultrices amet ac risus sed lectus consequat vel consequat blandit. Nisi porttitor
+                    pellentesque sit orci mauris.
+                  </TabsContent>
+                </div>
+              </Tabs>
+            </AnimatedSection>
+          </section>
+        </div>
+        <section className="bg-[#F0F0F0] py-16 px-6">
+          <AnimatedSection className="container flex flex-col md:flex-row justify-between gap-5 md:gap-10">
+            {/* Header Section */}
+            <div className="w-full flex flex-col justify-between items-center">
+              <h2 className="text-3xl font-bold text-black text-center mb-12">
+                Future <span className="text-gradiant">GOALS</span>
+              </h2>
+              <img
+                  src="/images/future-goal.png"
+                  alt="Target Icon"
+                  className="mx-auto mb-4 w-full"
               />
             </div>
-          </section>
-        </AnimatedSection>
-        {/* Team Overview Section */}
-        <TeamOverview data={teamOverviewData}/>
-        {/* Core Beliefs, Mission, Vision Section */}
-        <section className="mb-8 mt-8">
-          <AnimatedSection>
-            {aboutSection.map((section, index) => (
-                <AnimatedSection key={index} index={index} variant={"fadeUpVariant"}>
-                  <div
-                      className="grid grid-cols-1 md:grid-cols-2 gap-4 border-b border-black py-5"
-                  >
-                    <h3 className="text-xl md:text-2xl lg:text-3xl xl:text-[34px] font-medium leading-tight md:leading-snug xl:leading-[40px]">
-                      {section.title}
+
+            {/* Goals Cards */}
+            <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-8">
+              {goalsData.map((goal, index) => (
+                  <div key={index} className="text-left">
+                    <h3 className="text-xl font-semibold text-main mb-4">
+                      {goal.title}
                     </h3>
-                    <div className="space-y-2">
-                      <h4 className="text-base md:text-lg lg:text-xl xl:text-[18px] font-semibold xl:leading-[21px]">
-                        {section.subtitle}
-                      </h4>
-                      <p className="text-sm md:text-base lg:text-lg xl:text-[18px] text-gray-800">
-                        {section.description}
-                      </p>
-                    </div>
+                    <p className="text-gray-700 text-sm">{goal.description}</p>
                   </div>
-                </AnimatedSection>
-            ))}
+              ))}
+            </div>
           </AnimatedSection>
         </section>
 
-        <SubscribeSection title={'Get in Touch to Transform Your Campaigns'} item1={'Industry Leading Technology'}
-                          item2={'99% of Billboard Ads'} item3={'White Glove Service'}/>
-      </div>
-    </section>
+        <div className="container">
+          <SubscribeSection title={'Get in Touch to Transform Your Campaigns'} item1={'Industry Leading Technology'}
+                            item2={'99% of Billboard Ads'} item3={'White Glove Service'}/>
+        </div>
+      </section>
   );
 };
 

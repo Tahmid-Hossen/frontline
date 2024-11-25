@@ -10,9 +10,9 @@ const Projects = ({Headers, Cards}) => {
                   className="text-gradiant">{Headers.title_highlight || ""}</span></h2>
           ) : ""}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-              {Cards.map((item) => (
+              {Cards.map((item,index) => (
                   <div
-                      key={item.id}
+                      key={index}
                       className="bg-white shadow-md rounded-lg overflow-hidden transform hover:scale-105 transition duration-300"
                   >
                       <img

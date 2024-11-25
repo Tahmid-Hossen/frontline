@@ -1,5 +1,6 @@
 import BreadCrumb from "@/components/breadcrumb/BreadCrumb";
 import RenderBasedOnSubService from "@/components/services/RenderBasedOnSubService.jsx";
+import BannerSection from "@/components/BannerSection/BannerSection.jsx";
 
 const data = {
   "title": "Electronics",
@@ -138,14 +139,7 @@ const SubService = ({category, service, subService}) => {
 
   return (
     <section className="bg-white">
-      <BreadCrumb
-        backgroundImage={"/images/banner/our-services-banner-bg.png"}
-        title={subService?.title || "No Title Found"}
-        button={"Ask For Demo"}
-        backButton={true}
-        description=""
-        breadcrumbs={breadcrumbs}
-      />
+      <BannerSection title={'Outdoor Branding'} backgroundImage={'/images/banner/our-work-banner.png'}/>
       <RenderBasedOnSubService data={data} subService={subService} service={service}/>
     </section>
   );

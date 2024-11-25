@@ -50,7 +50,7 @@ const Navbar = () => {
               <NavigationMenuItem>
                 <Link to="/services">
                   <NavigationMenuTrigger
-                    className={`bg-transparent hover:bg-transparent hover:text-slate-300 data-[active]:bg-transparent p-0 ${isActiveLink("/services") ? "text-primary font-bold" : "text-white"} data-[state=open]:text-white data-[state=open]:bg-transparent focus:bg-transparent active:bg-transparent text-base`}
+                    className={`bg-transparent hover:bg-transparent hover:text-slate-300 data-[active]:bg-transparent p-0 ${isActiveLink("/services") ? "focus:!text-primary !text-primary font-semibold" : "focus:!text-white !text-white"} data-[state=open]:text-white data-[state=open]:bg-transparent focus:bg-transparent active:bg-transparent text-base`}
                   >
                     Services
                   </NavigationMenuTrigger>
@@ -61,7 +61,7 @@ const Navbar = () => {
                       <li key={service.id} className="nav-dropdown-item text-white py-3">
                         <Link
                           to={`/services/${service.slug}`}
-                          className={`nav-dropdown-link ${isActiveSubLink(`/services/${service.slug}`) ? "text-slate-300" : "text-white"}`}
+                          className={`nav-dropdown-link ${isActiveSubLink(`/services/${service.slug}`) ? "text-slate-300 font-semibold" : "text-white font-medium"}`}
                         >
                           {service.title}
                         </Link>
@@ -74,25 +74,25 @@ const Navbar = () => {
           </NavigationMenu>
           <Link
             to="/our-works"
-            className={`transition-colors hover:text-slate-300 font-medium ${isActiveLink("/our-works") ? "text-slate-300 font-medium" : "text-white"}`}
+            className={`transition-colors hover:text-slate-300 ${isActiveLink("/our-works") ? "text-slate-300 font-semibold" : "text-white font-medium"}`}
           >
             Our Works
           </Link>
           <Link
             to="/clients"
-            className={`transition-colors hover:text-slate-300 font-medium ${isActiveLink("/clients") ? "text-slate-300 font-medium" : "text-white"}`}
+            className={`transition-colors hover:text-slate-300 ${isActiveLink("/clients") ? "text-slate-300 font-semibold" : "text-white font-medium"}`}
           >
             Clients
           </Link>
           <Link
             to="/about-us"
-            className={`transition-colors hover:text-slate-300 font-medium ${isActiveLink("/about-us") ? "text-slate-300 font-medium" : "text-white "}`}
+            className={`transition-colors hover:text-slate-300 ${isActiveLink("/about-us") ? "text-slate-300 font-semibold" : "text-white font-medium"}`}
           >
             About Us
           </Link>
           <Link
             to="/blogs"
-            className={`transition-colors hover:text-slate-300 font-medium ${isActiveLink("/blogs") ? "text-slate-300 font-medium" : "text-white"}`}
+            className={`transition-colors hover:text-slate-300 ${isActiveLink("/blogs") ? "text-slate-300 font-semibold" : "text-white font-medium"}`}
           > Blogs
           </Link>
         </div>
@@ -146,7 +146,7 @@ const Navbar = () => {
                       </Link>
                     </SheetClose>
                     <NavigationMenuTrigger
-                      className={`bg-transparent hover:bg-transparent data-[active]:bg-transparent p-0 data-[state=open]:text-primary data-[state=open]:bg-transparent focus:bg-transparent active:bg-transparent text-lg md:text-base ${isActiveLink("/services/") ? "!text-primary" : "!text-white"}`}
+                      className={`bg-transparent hover:bg-transparent data-[active]:bg-transparent p-0 data-[state=open]:text-primary data-[state=open]:bg-transparent  focus:bg-transparent active:bg-transparent text-lg md:text-base ${isActiveLink("/services/") ? "focus:!text-primary !text-primary" : "focus:!text-white !text-white"}`}
                     />
                   </div>
                   <NavigationMenuContent className={"bg-primary/80"}>
