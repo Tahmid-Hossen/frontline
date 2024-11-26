@@ -23,7 +23,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
+.swiper-wrapper{
+    @apply py-3
+}
 .swiper-button-prev:after,
 .swiper-rtl .swiper-button-next:after {
     content: 'prev' !important;
@@ -331,7 +333,7 @@ body {
 
     /*For Swiper Buttons*/
     .custom-prev.swiper-button-disabled, .custom-next.swiper-button-disabled {
-        @apply opacity-65 cursor-auto pointer-events-none text-black;
+        @apply opacity-45 cursor-auto pointer-events-none text-primary;
     }
 
     .sub-title {

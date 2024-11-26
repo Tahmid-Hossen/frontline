@@ -158,10 +158,9 @@ const Footer = () => {
 
           {/* Certifications & Copyright */}
           <div className="mt-8 border-t py-3">
-            <ul className="text-sm flex justify-center items-center gap-4">
-              <li><Link to="/privacy-policy" className="hover:text-primary">Privacy & Policies</Link></li>
-              <li><Link to="/terms-conditions" className="hover:text-primary">Terms and Conditions</Link></li>
-              <li><Link to="/code-of-conduct" className="hover:text-primary">Code of Conduct</Link></li>
+            <ul className="text-sm flex justify-center items-center divide-x">
+              <li><Link to="/privacy-policy" className="hover:text-primary mr-2">Privacy & Policies</Link></li>
+              <li><Link to="/terms-conditions" className="hover:text-primary ml-2">Terms and Conditions</Link></li>
             </ul>
             <p className="text-white text-sm text-center mt-3">
               Copyright © 2024. All rights reserved by <Link to={"/"} className={"font-semibold hover:underline"}>Frontline 360</Link>,  Developed By <Link to={"https://nexdecade.com/"} className={"font-semibold hover:underline"}>Nexdecade Technology Pvt. Ltd.</Link>

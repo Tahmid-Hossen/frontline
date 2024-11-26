@@ -106,6 +106,27 @@ const testimonials = [
     rating: 5,
     image: "https://via.placeholder.com/150"
   },
+  {
+    name: "Shagufta Begum",
+    role: "Customer",
+    testimonial: "The team at Frontline understood our vision and connected us with influencers who truly resonated with our brand.",
+    rating: 5,
+    image: "https://via.placeholder.com/150"
+  },
+  {
+    name: "Topu Biswas",
+    role: "Customer",
+    testimonial: "As a satisfied customer of Frontline, I want to share my positive experience with others. They helped us expand our reach beyond our target audience and increased engagement by 40%.",
+    rating: 5,
+    image: "https://via.placeholder.com/150"
+  },
+  {
+    name: "Torikul Islam",
+    role: "Customer",
+    testimonial: "The team at Frontline understood our vision and connected us with influencers who truly resonated with our brand.",
+    rating: 5,
+    image: "https://via.placeholder.com/150"
+  },
 ];
 
 // Animation settings
@@ -432,10 +453,10 @@ const RenderBasedOnSubService = ({subService, data}) => {
                         </AnimatedSection>
                       </div>
                       <SubServiceBanner cards={cards2}/>
+                      <AnimatedSection>
+                        <TestimonialCard data={testimonials}/>
+                      </AnimatedSection>
                       <div className="container mx-auto px-4 py-4 md:px-6 md:py-6 lg:px-8 lg:py-8 space-y-10">
-                        <AnimatedSection>
-                          <TestimonialCard data={testimonials}/>
-                        </AnimatedSection>
                         <SubscribeSection title={'Get in Touch to Transform Your Campaigns'} item1={'Industry Leading Technology'} item2={'99% of Billboard Ads'} item3={'White Glove Service'}/>
                       </div>
 
