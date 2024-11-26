@@ -172,7 +172,7 @@ const Career = () => {
             <p className="text-center text-white font-normal description my-2 line-clamp-2 md:line-clamp-4">
               Apply to submit your CV and wait for a call from our Recruitment team.<br/>The application
               process
-              at <strong className={"text-primary"}>Nexdecade</strong> is conducted in several stages. Lets explore.
+              at <strong className={"italic"}>Frontline</strong> is conducted in several stages. Lets explore.
             </p>
           </div>
           <CardsComponent data={cards} colNumber={3.5} imageWidth={48} imageHeight={48}

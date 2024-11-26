@@ -57,9 +57,9 @@ const GridSlider = ({data}) => {
         modules={[Grid, Navigation]}
         className="relative w-full h-full !py-0"
       >
-        {data?.map((slide) => (
+        {data?.map((slide, index) => (
           <SwiperSlide
-            key={slide.id}
+            key={index}
             className="text-center flex justify-center items-center gap-2 rounded-lg"
           >
             <img

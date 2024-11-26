@@ -3,10 +3,10 @@ import React from 'react';
 const PrivacyPolicy = () => {
     return (
         <div className="min-h-[300px] container mx-auto p-6">
-            <h1 className="font-semibold text-2xl lg:text-4xl my-4">Nexdecade Technology Private Ltd. Privacy Policy</h1>
+            <h1 className="font-semibold text-2xl lg:text-4xl my-4">Frontline - Privacy Policy</h1>
             <div className="bg-white shadow-md rounded-lg p-6">
                 <p>
-                    Nexdecade Technology Private Ltd built the Nexdecade  Vehicle Tracking Service app as a Free app. This SERVICE is provided by Nexdecade Technology Private Ltd at no cost and is intended for use as is.
+                    Frontline built the Frontline  Vehicle Tracking Service app as a Free app. This SERVICE is provided by Frontline at no cost and is intended for use as is.
                 </p>
                 <p>
                     This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
                     If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
                 </p>
                 <p>
-                    The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Nexdecade  Vehicle Tracking Service unless otherwise defined in this Privacy Policy.
+                    The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Frontline  Vehicle Tracking Service unless otherwise defined in this Privacy Policy.
                 </p>
 
                 <h2 className="font-bold mt-4">Information Collection and Use</h2>

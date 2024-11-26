@@ -1,8 +1,18 @@
 import {Mail, Phone} from "lucide-react";
 import GoogleMap from "@/components/common/GoogleMap";
-import {Link} from "react-router-dom";
+import {Link, useLocation} from "react-router-dom";
+import serviceData from "@/data/serviceData.json";
 
 const Footer = () => {
+  const location = useLocation(); // Get current route
+  const isActiveLink = (href) => {
+    return location.pathname === href || location.pathname.startsWith(href);
+  };
+
+  // Function to check if the current route partially matches the provided href (for sub-menus)
+  const isActiveSubLink = (href) => {
+    return location.pathname.startsWith(href);
+  };
   return (
     <>
       <footer className="bg-[#46266A] pt-8 text-[#fff]">
@@ -98,10 +108,10 @@ const Footer = () => {
               <div className="flex-1 flex flex-col items-center justify-center self-start space-y-4">
                 <h3 className="font-semibold mb-1">Quick Links</h3>
                 <ul className="space-y-3 text-sm">
-                  <li><Link to="/marketing" className="hover:text-primary">Marketing</Link></li>
+                  <li><Link to="/marketing" className="hover:text-primary">Outdoor Marketing</Link></li>
                   <li><Link to="/services" className="hover:text-primary">Services</Link></li>
-                  <li><Link to="/digital-marketing" className="hover:text-primary">Digital Marketing</Link></li>
-                  <li><Link to="/advertisement" className="hover:text-primary">Advertisement</Link></li>
+                  <li><Link to="/services/digital-marketing" className="hover:text-primary">Digital Marketing</Link></li>
+                  <li><Link to="/advertisement" className="hover:text-primary">Influnce</Link></li>
                 </ul>
               </div>
               {/* Connect Links */}
@@ -118,10 +128,16 @@ const Footer = () => {
             <div className="flex-1 hidden md:flex flex-col items-center justify-center self-start space-y-4">
               <h3 className="font-semibold mb-1">Quick Links</h3>
               <ul className="space-y-3 text-sm">
-                <li><Link to="/marketing" className="hover:text-primary">Marketing</Link></li>
-                <li><Link to="/services" className="hover:text-primary">Services</Link></li>
-                <li><Link to="/digital-marketing" className="hover:text-primary">Digital Marketing</Link></li>
-                <li><Link to="/advertisement" className="hover:text-primary">Advertisement</Link></li>
+                {serviceData.map((service) => (
+                    <li key={service.id} className="text-white py-1">
+                      <Link
+                          to={`/services/${service.slug}`}
+                          className={`${isActiveSubLink(`/services/${service.slug}`) ? "text-slate-300 font-semibold" : "text-white font-medium"}`}
+                      >
+                        {service.title}
+                      </Link>
+                    </li>
+                ))}
               </ul>
             </div>
 
@@ -129,24 +145,27 @@ const Footer = () => {
             <div className="flex-1 hidden md:block text-white self-start space-y-4">
               <h3 className="font-semibold mb-1">Connect with us</h3>
               <ul className="space-y-3 text-sm">
-                <li><Link to="/contact-us" className="hover:text-primary">Connect Us</Link></li>
-                <li><Link to="/life-at-a-glance/career" className="hover:text-primary">Work with Us</Link></li>
+                <li><Link to="/our-works" className="hover:text-primary">Our Works</Link></li>
+                <li><Link to="/blog" className="hover:text-primary">Blog</Link></li>
                 <li><Link to="/faq" className="hover:text-primary">Help</Link></li>
+                <li><Link to="/contact-us" className={"inline-flex  items-center justify-center h-[38px] btn bg-main border rounded-md  text-white hover:bg-gradient-default"}>
+                  Contact Us
+                </Link></li>
               </ul>
             </div>
-            {/* Map (Optional, example static image or embedded map) */}
-            <div className="flex-1 mx-auto md:mx-0">
-              <GoogleMap width={''} height={''} style={"w-[300px] h-[200px] md:w-[360px] md:h-[200px] rounded-lg"}/>
-            </div>
+
           </div>
 
           {/* Certifications & Copyright */}
           <div className="mt-8 border-t py-3">
             <ul className="text-sm flex justify-center items-center gap-4">
               <li><Link to="/privacy-policy" className="hover:text-primary">Privacy & Policies</Link></li>
-              <li><Link to="/terms" className="hover:text-primary">Terms and Conditions</Link></li>
+              <li><Link to="/terms-conditions" className="hover:text-primary">Terms and Conditions</Link></li>
               <li><Link to="/code-of-conduct" className="hover:text-primary">Code of Conduct</Link></li>
             </ul>
+            <p className="text-white text-sm text-center mt-3">
+              Copyright © 2024. All rights reserved by <Link to={"/"} className={"font-semibold hover:underline"}>Frontline 360</Link>,  Developed By <Link to={"https://nexdecade.com/"} className={"font-semibold hover:underline"}>Nexdecade Technology Pvt. Ltd.</Link>
+            </p>
           </div>
         </div>
       </footer>

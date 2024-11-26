@@ -17,6 +17,7 @@ import NotFound from "@/components/NotFound.jsx";
 import SinglePortfolio from "@/pages/single-portfolio.jsx";
 import PrivacyPolicy from "@/pages/PrivacyPolicy.jsx";
 import OurWorks from "@/pages/our-works.jsx";
+import TermsAndConditions from "@/pages/TermsAndConditions.jsx";
 
 const RoutesConfig = () => (
   <Routes>
@@ -68,6 +69,18 @@ const RoutesConfig = () => (
             <meta name="description" content="Privacy Policy Frontline. for more information."/>
           </Helmet>
           <PrivacyPolicy/>
+        </>
+      }
+    />
+    <Route
+      path="/terms-conditions"
+      element={
+        <>
+          <Helmet>
+            <title>Terms Conditions - Frontline.</title>
+            <meta name="description" content="Terms Conditions Frontline. for more information."/>
+          </Helmet>
+          <TermsAndConditions/>
         </>
       }
     />
