@@ -7,6 +7,7 @@ import ValuableClients from "@/components/homepage/ValuableClients.jsx";
 import OurBlogs from "@/components/homepage/OurBlogs.jsx";
 import AddSections from "@/components/homepage/AddSections.jsx";
 import GetinTouch from "@/components/homepage/GetinTouch.jsx";
+import AnimatedSection from "@/components/common/AnimatedSection.jsx";
 
 const fadeUpVariant = {
   hidden: {opacity: 0, y: 20},
@@ -20,17 +21,15 @@ export default function Home() {
 
   return (
     <>
-      <Banner/>
-      <motion.div
-        ref={solutionsRef}
-        variants={fadeUpVariant}
-        initial="hidden"
-        animate={isSolutionsVisible ? "visible" : "hidden"}
-      >
-        <OurSolutions/>
-      </motion.div>
-      
-      <motion.div
+        <Banner/>
+        <AnimatedSection>
+          <OurSolutions/>
+        </AnimatedSection>
+        <AnimatedSection>
+            <AboutUs/>
+        </AnimatedSection>
+
+      {/*<motion.div
         ref={partneringRef}
         variants={fadeUpVariant}
         initial="hidden"
@@ -73,7 +72,7 @@ export default function Home() {
         animate={isSolutionsVisible ? "visible" : "hidden"}
       >
         <GetinTouch/>
-      </motion.div>
+      </motion.div>*/}
       
       {/*<motion.div*/}
       {/*  ref={achievementsRef}*/}
